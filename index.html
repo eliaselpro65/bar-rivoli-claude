@@ -152,11 +152,8 @@
         <section id="inicio" class="hero-bg h-[600px] flex items-center justify-center text-center text-white bg-cover bg-center">
             <div class="hero-content">
                 <h1 class="text-5xl md:text-6xl font-bold mb-4 text-dorado" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Café Bar Rivoli</h1>
-                <!-- CAMBIO: mb-4 cambiado a mb-8 para compensar el espacio del botón eliminado -->
                 <p class="text-xl md:text-2xl mb-8 italic">Tradición y sabor en Soria desde 2001</p>
                 
-                <!-- ======== CALIFICACIÓN DE GOOGLE ELIMINADA ======== -->
-
                 <a href="#menu" class="bg-dorado text-verde-oscuro py-3 px-8 rounded-md font-bold text-lg hover:bg-white transition-all transform hover:-translate-y-0.5 shadow-lg">Descubre Nuestra Selección</a>
             </div>
         </section>
@@ -168,14 +165,22 @@
                 <span class="after:block after:w-24 after:h-1 after:bg-dorado after:mx-auto after:mt-4"></span>
             </h2>
             
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            <!-- ===================================================================== -->
+            <!-- =========== CORRECCIÓN DE LAYOUT (SOBRE NOSOTROS) =================== -->
+            <!-- ===================================================================== -->
+            
+            <!-- CAMBIO: Grid simple de 2 columnas en 'lg', alineado al inicio -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
                 
-                <div class="about-text lg:col-span-7">
-                    <p class="mb-4 text-xl">Bienvenidos al <strong>Café Bar Rivoli</strong>, un rincón acogedor en Soria donde la tradición y la calidez se encuentran en cada rincón. Con más de <strong>20 años de historia</strong>, hemos sido testigos de miles de conversaciones, celebraciones y momentos especiales de nuestros clientes.</p>
-                    <p class="mb-4 text-xl">Nos enorgullece ofrecer un ambiente familiar donde cada persona que cruza nuestra puerta es recibida como un amigo. Nuestra filosofía es simple: buen producto, buen trato y un espacio donde sentirse como en casa.</p>
-                    <p class="mb-6 text-xl">Ya sea para disfrutar de un café por la mañana, un vermut al mediodía o un cubalibré por la noche, en Rivoli encontrarás siempre una sonrisa y la mejor atención.</p>
+                <!-- Columna 1: TODO el texto (párrafos + destacados) -->
+                <div class="about-text">
+                    <!-- CAMBIO: Texto devuelto a 'text-lg' para un look más natural -->
+                    <p class="mb-4 text-lg">Bienvenidos al <strong>Café Bar Rivoli</strong>, un rincón acogedor en Soria donde la tradición y la calidez se encuentran en cada rincón. Con más de <strong>20 años de historia</strong>, hemos sido testigos de miles de conversaciones, celebraciones y momentos especiales de nuestros clientes.</p>
+                    <p class="mb-4 text-lg">Nos enorgullece ofrecer un ambiente familiar donde cada persona que cruza nuestra puerta es recibida como un amigo. Nuestra filosofía es simple: buen producto, buen trato y un espacio donde sentirse como en casa.</p>
+                    <p class="mb-6 text-lg">Ya sea para disfrutar de un café por la mañana, un vermut al mediodía o un cubalibré por la noche, en Rivoli encontrarás siempre una sonrisa y la mejor atención.</p>
                     
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <!-- CAMBIO: Los destacados ahora están DEBAJO de los párrafos, no anidados -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10">
                         <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-dorado">
                             <i class="fas fa-wine-glass-alt text-verde-oscuro text-3xl mb-2"></i>
                             <h4 class="font-bold text-lg">Vermuts de Calidad</h4>
@@ -199,11 +204,17 @@
                     </div>
                 </div>
                 
-                <div class="about-image grid grid-cols-1 gap-6 lg:col-span-5">
+                <!-- Columna 2: Fotos LADO A LADO -->
+                <!-- CAMBIO: 'grid-cols-2' para poner fotos lado a lado y equilibrar altura -->
+                <div class="about-image grid grid-cols-2 gap-6 items-start">
                     <img src="https://i.imgur.com/g5dqUOL.jpeg" alt="Interior del Café Bar Rivoli" class="rounded-lg shadow-xl w-full h-auto object-cover">
                     <img src="https://i.imgur.com/72dRYpX.jpeg" alt="Vicente y camarero en la barra del Café Rivoli" class="rounded-lg shadow-xl w-full h-auto object-cover">
                 </div>
             </div>
+            
+            <!-- ===================================================================== -->
+            <!-- =================== FIN CORRECCIÓN DE LAYOUT ======================== -->
+            <!-- ===================================================================== -->
 
         </section>
 
@@ -466,7 +477,7 @@
                     <summary class="faq-question bg-verde-oscuro text-white p-5 cursor-pointer font-bold text-lg flex justify-between items-center group">
                         ¿Tenéis terraza?
                         <i class="fas fa-chevron-down transition-transform duration-300 group-open:rotate-180"></i>
-                    </summary>
+                    </sUmmary>
                     <div class="faq-answer p-5 text-lg">
                         Sí, contamos con una acogedora terraza perfecta para disfrutar del buen tiempo. Es ideal para tomar algo tranquilamente y charlar con amigos.
                     </div>
@@ -570,7 +581,7 @@
 
         // Opcional: Cerrar menú móvil al hacer clic en un enlace
         document.querySelectorAll('#mobile-menu a, #nav-links a').forEach(link => {
-            link.addEventListener('click', () => { // <-- CORRECCIÓN: Eliminada la 'U'
+            link.addEventListener('click', () => { 
                 if (!mobileMenu.classList.contains('hidden')) {
                     mobileMenu.classList.add('hidden');
                 }
