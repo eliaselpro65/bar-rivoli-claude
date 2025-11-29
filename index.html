@@ -123,27 +123,31 @@
                 <li><a href="#inicio" class="hover:text-dorado transition-colors">Inicio</a></li>
                 <li><a href="#nosotros" class="hover:text-dorado transition-colors">Nosotros</a></li>
                 <li><a href="#jamon" class="hover:text-dorado transition-colors">Jamón Gratis</a></li>
+                <li><a href="#pinchos" class="hover:text-dorado transition-colors">Pinchos</a></li>
                 <li><a href="#menu" class="hover:text-dorado transition-colors">Menú</a></li>
                 <li><a href="#galeria" class="hover:text-dorado transition-colors">Galería</a></li>
                 <li><a href="#horarios" class="hover:text-dorado transition-colors">Horarios</a></li>
                 <li><a href="#ubicacion" class="hover:text-dorado transition-colors">Ubicación</a></li>
                 <li><a href="#resenas" class="hover:text-dorado transition-colors">Reseñas</a></li>
+                <li><a href="#noticias" class="hover:text-dorado transition-colors">Noticias</a></li>
                 <li><a href="#faq" class="hover:text-dorado transition-colors">FAQ</a></li>
                 <li><a href="#contacto" class="hover:text-dorado transition-colors">Contacto</a></li>
             </ul>
         </nav>
 
-        <div id="mobile-menu" class="hidden md:hidden flex-col items-center space-y-4 py-4">
-            <li><a href="#inicio" class="block w-full text-center hover:text-dorado transition-colors">Inicio</a></li>
-            <li><a href="#nosotros" class="block w-full text-center hover:text-dorado transition-colors">Nosotros</a></li>
-            <li><a href="#jamon" class="block w-full text-center hover:text-dorado transition-colors">Jamón Gratis</a></li>
-            <li><a href="#menu" class="block w-full text-center hover:text-dorado transition-colors">Menú</a></li>
-            <li><a href="#galeria" class="block w-full text-center hover:text-dorado transition-colors">Galería</a></li>
-            <li><a href="#horarios" class="block w-full text-center hover:text-dorado transition-colors">Horarios</a></li>
-            <li><a href="#ubicacion" class="block w-full text-center hover:text-dorado transition-colors">Ubicación</a></li>
-            <li><a href="#resenas" class="block w-full text-center hover:text-dorado transition-colors">Reseñas</a></li>
-            <li><a href="#faq" class="block w-full text-center hover:text-dorado transition-colors">FAQ</a></li>
-            <li><a href="#contacto" class="block w-full text-center hover:text-dorado transition-colors">Contacto</a></li>
+        <div id="mobile-menu" class="hidden md:hidden">
+            <ul class="flex flex-col items-center space-y-4 py-4">
+                <li><a href="#inicio" class="block w-full text-center hover:text-dorado transition-colors">Inicio</a></li>
+                <li><a href="#nosotros" class="block w-full text-center hover:text-dorado transition-colors">Nosotros</a></li>
+                            <li><a href="#jamon" class="block w-full text-center hover:text-dorado transition-colors">Jamón Gratis</a></li>
+                            <li><a href="#pinchos" class="block w-full text-center hover:text-dorado transition-colors">Pinchos</a></li>
+                            <li><a href="#menu" class="block w-full text-center hover:text-dorado transition-colors">Menú</a></li>                <li><a href="#galeria" class="block w-full text-center hover:text-dorado transition-colors">Galería</a></li>
+                <li><a href="#horarios" class="block w-full text-center hover:text-dorado transition-colors">Horarios</a></li>
+                <li><a href="#ubicacion" class="block w-full text-center hover:text-dorado transition-colors">Ubicación</a></li>
+                            <li><a href="#resenas" class="block w-full text-center hover:text-dorado transition-colors">Reseñas</a></li>
+                            <li><a href="#noticias" class="block w-full text-center hover:text-dorado transition-colors">Noticias</a></li>
+                            <li><a href="#faq" class="block w-full text-center hover:text-dorado transition-colors">FAQ</a></li>                <li><a href="#contacto" class="block w-full text-center hover:text-dorado transition-colors">Contacto</a></li>
+            </ul>
         </div>
     </header>
 
@@ -155,6 +159,27 @@
                 <p class="text-xl md:text-2xl mb-8 italic">Tradición y sabor en Soria desde 2001</p>
                 
                 <a href="#menu" class="bg-dorado text-verde-oscuro py-3 px-8 rounded-md font-bold text-lg hover:bg-white transition-all transform hover:-translate-y-0.5 shadow-lg">Descubre Nuestra Selección</a>
+            </div>
+        </section>
+
+        <!-- Pincho de la Semana -->
+        <section id="pincho-semana" class="bg-verde-claro/20 py-16">
+            <div class="container mx-auto px-4">
+                <div class="bg-white rounded-lg shadow-xl p-8 md:p-12 grid grid-cols-1 md:grid-cols-3 gap-8 items-center border-l-8 border-dorado">
+                    <!-- Columna de Texto -->
+                    <div class="md:col-span-2">
+                        <h2 class="text-3xl md:text-4xl font-bold text-verde-oscuro mb-4">Nuestro Pincho de la Semana</h2>
+                        <h3 class="text-2xl md:text-3xl font-bold text-dorado mb-4">Torreznos de Soria</h3>
+                        <p class="text-lg mb-6">
+                            ¡No te puedes perder nuestros auténticos Torreznos de Soria! Crujientes, sabrosos y con la marca de garantía. El acompañante perfecto para tu vermut o tu cerveza. ¡Una delicia que te transportará al corazón de Soria!
+                        </p>
+                        <a href="#menu" class="bg-dorado text-verde-oscuro py-2 px-6 rounded-md font-bold text-lg hover:bg-verde-oscuro hover:text-white transition-all transform hover:-translate-y-0.5 shadow-lg">Ver más en el menú</a>
+                    </div>
+                    <!-- Columna de Imagen -->
+                    <div class="md:col-span-1">
+                        <img src="https://i.imgur.com/8dE1t1B.jpeg" alt="Ración de Torreznos de Soria crujientes" class="rounded-lg shadow-md w-full h-auto object-cover">
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -238,6 +263,75 @@
                     <!-- Foto de la sección (Pincho de Tortilla) -->
                     <img src="https://i.imgur.com/BOg5zDU.jpeg" alt="Pincho de tortilla en plato" class="rounded-lg shadow-xl w-full h-auto object-cover max-h-96">
                 </div>
+            </div>
+        </section>
+
+        <!-- Pinchos Section -->
+        <section id="pinchos" class="container mx-auto px-4 py-16">
+            <h2 class="text-4xl font-bold text-verde-oscuro mb-12 text-center relative">
+                Nuestros Pinchos
+                <span class="after:block after:w-24 after:h-1 after:bg-dorado after:mx-auto after:mt-4"></span>
+            </h2>
+            <p class="text-center text-lg max-w-2xl mx-auto mb-12">
+                Una selección de nuestros pinchos más populares, elaborados con ingredientes frescos y todo el sabor de la cocina tradicional. (Estos son ejemplos, puedes modificarlos).
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Pincho 1: Tortilla de Patata -->
+                <div class="pincho-card group bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:-translate-y-2">
+                    <img src="https://i.imgur.com/3sP8kpq.jpeg" alt="Pincho de Tortilla de Patata jugosa" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-verde-oscuro mb-2">Tortilla de Patata</h3>
+                        <p class="text-base">Nuestra famosa tortilla, jugosa por dentro y dorada por fuera. Un clásico que nunca falla.</p>
+                    </div>
+                </div>
+
+                <!-- Pincho 2: Croquetas de Jamón -->
+                <div class="pincho-card group bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:-translate-y-2">
+                    <img src="https://i.imgur.com/aZCMq6c.jpeg" alt="Croquetas de jamón ibérico caseras" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-verde-oscuro mb-2">Croquetas de Jamón</h3>
+                        <p class="text-base">Cremosas y llenas de sabor, hechas con jamón ibérico y una bechamel suave.</p>
+                    </div>
+                </div>
+
+                <!-- Pincho 3: Gilda -->
+                <div class="pincho-card group bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:-translate-y-2">
+                    <img src="https://i.imgur.com/4q3nZ8X.jpeg" alt="Gilda: brocheta de aceituna, anchoa y guindilla" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-verde-oscuro mb-2">Gilda</h3>
+                        <p class="text-base">La combinación perfecta de anchoa, aceituna y guindilla. El pincho original para abrir el apetito.</p>
+                    </div>
+                </div>
+
+                <!-- Pincho 4: Ensaladilla Rusa -->
+                <div class="pincho-card group bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:-translate-y-2">
+                    <img src="https://i.imgur.com/T5f1Jj2.jpeg" alt="Tapa de ensaladilla rusa casera" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-verde-oscuro mb-2">Ensaladilla Rusa</h3>
+                        <p class="text-base">Nuestra receta tradicional con patata, atún, huevo y una mayonesa suave. ¡Irresistible!</p>
+                    </div>
+                </div>
+
+                <!-- Pincho 5: Chorizo al Vino -->
+                <div class="pincho-card group bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:-translate-y-2">
+                    <img src="https://i.imgur.com/vjL0a2K.jpeg" alt="Cazuelita de chorizo cocido al vino tinto" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-verde-oscuro mb-2">Chorizo al Vino</h3>
+                        <p class="text-base">Tierno chorizo cocido lentamente en vino tinto de la región, con un sabor profundo y delicioso.</p>
+                    </div>
+                </div>
+
+                <!-- Pincho 6: Morro Frito -->
+                <div class="pincho-card group bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:-translate-y-2">
+                    <img src="https://i.imgur.com/p8f8Sg2.jpeg" alt="Ración de morro frito crujiente" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-verde-oscuro mb-2">Morro Frito</h3>
+                        <p class="text-base">Crujiente por fuera y tierno por dentro. Un pincho contundente y sabroso, perfecto con una cerveza fría.</p>
+                    </div>
+                </div>
+
             </div>
         </section>
 
@@ -448,6 +542,113 @@
             </div>
         </section>
 
+        <!-- Galería de Clientes (Instagram) -->
+        <section id="clientes-instagram" class="bg-gray-50 py-16">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-4xl font-bold text-verde-oscuro mb-4">Nuestros Clientes</h2>
+                <p class="text-xl text-gray-700 mb-2">¡Vosotros sois los protagonistas!</p>
+                <p class="text-lg max-w-2xl mx-auto mb-8">
+                    Nos encanta ver cómo disfrutáis en el Rivoli. Comparte tus momentos con el hashtag
+                    <a href="https://www.instagram.com/explore/tags/rivolisoria/" target="_blank" class="text-dorado font-bold hover:underline">#RivoliSoria</a>
+                    y podrás aparecer aquí.
+                </p>
+
+                <!--
+                    =====================================================================
+                    INSTRUCCIONES PARA LA GALERÍA DE INSTAGRAM DINÁMICA
+                    =====================================================================
+                    Lo que ves a continuación es solo un DISEÑO de ejemplo.
+                    Para que esta galería muestre fotos de Instagram de verdad, necesitas
+                    usar un servicio de "widgets" de Instagram.
+
+                    Pasos a seguir:
+                    1. Ve a una web como https://lightwidget.com/ o https://snapwidget.com/
+                    2. Regístrate y configura tu widget (elige el hashtag #RivoliSoria, el
+                       número de fotos, el diseño, etc.).
+                    3. El servicio te dará un código para copiar y pegar.
+                    4. BORRA el div de abajo que tiene la clase "instagram-grid-mockup"
+                       y PEGA el código del widget en su lugar.
+                    =====================================================================
+                -->
+
+                <!-- INICIO DEL DISEÑO DE EJEMPLO (BORRAR Y REEMPLAZAR CON WIDGET) -->
+                <div class="instagram-grid-mockup grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+                    <div class="group relative">
+                        <img src="https://i.imgur.com/YIKctx6.jpeg" alt="Foto de cliente en Instagram 1" class="w-full h-full object-cover rounded-lg shadow-md">
+                        <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                            <i class="fab fa-instagram text-white text-4xl"></i>
+                        </div>
+                    </div>
+                    <div class="group relative">
+                        <img src="https://i.imgur.com/DEn9mzz.jpeg" alt="Foto de cliente en Instagram 2" class="w-full h-full object-cover rounded-lg shadow-md">
+                         <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                            <i class="fab fa-instagram text-white text-4xl"></i>
+                        </div>
+                    </div>
+                    <div class="group relative">
+                        <img src="https://i.imgur.com/BOg5zDU.jpeg" alt="Foto de cliente en Instagram 3" class="w-full h-full object-cover rounded-lg shadow-md">
+                         <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                            <i class="fab fa-instagram text-white text-4xl"></i>
+                        </div>
+                    </div>
+                    <div class="group relative">
+                        <img src="https://i.imgur.com/4jqEg9Y.jpeg" alt="Foto de cliente en Instagram 4" class="w-full h-full object-cover rounded-lg shadow-md">
+                         <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                            <i class="fab fa-instagram text-white text-4xl"></i>
+                        </div>
+                    </div>
+                    <div class="group relative">
+                        <img src="https://i.imgur.com/lgGHv6h.jpeg" alt="Foto de cliente en Instagram 5" class="w-full h-full object-cover rounded-lg shadow-md">
+                         <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                            <i class="fab fa-instagram text-white text-4xl"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- FIN DEL DISEÑO DE EJEMPLO -->
+
+            </div>
+        </section>
+
+        <!-- Noticias y Novedades -->
+        <section id="noticias" class="bg-beige py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-verde-oscuro mb-12 text-center relative">
+                    Noticias y Novedades
+                    <span class="after:block after:w-24 after:h-1 after:bg-dorado after:mx-auto after:mt-4"></span>
+                </h2>
+                <div class="max-w-4xl mx-auto space-y-8">
+                    
+                    <!-- Noticia 1 -->
+                    <div class="noticia-item bg-white p-8 rounded-lg shadow-lg border-l-4 border-verde-oscuro">
+                        <p class="text-sm text-gray-500 mb-1">30 de noviembre de 2025</p>
+                        <h3 class="text-2xl font-bold text-verde-oscuro mb-3">¡Música en directo este Sábado!</h3>
+                        <p class="text-lg">
+                            Este sábado por la noche, a partir de las 22:00, tendremos la actuación en directo del dúo acústico "Soria Suena". Ven a disfrutar de buena música y el mejor ambiente. ¡No te quedes sin sitio!
+                        </p>
+                    </div>
+
+                    <!-- Noticia 2 -->
+                    <div class="noticia-item bg-white p-8 rounded-lg shadow-lg border-l-4 border-verde-oscuro">
+                        <p class="text-sm text-gray-500 mb-1">15 de noviembre de 2025</p>
+                        <h3 class="text-2xl font-bold text-verde-oscuro mb-3">Nueva selección de vinos de Ribera</h3>
+                        <p class="text-lg">
+                            Hemos incorporado tres nuevos vinos de la D.O. Ribera del Duero a nuestra carta. Pide recomendación a Vicente y déjate sorprender por sus matices. Perfectos para maridar con nuestros pinchos.
+                        </p>
+                    </div>
+
+                    <!-- Noticia 3 -->
+                    <div class="noticia-item bg-white p-8 rounded-lg shadow-lg border-l-4 border-verde-oscuro">
+                        <p class="text-sm text-gray-500 mb-1">01 de noviembre de 2025</p>
+                        <h3 class="text-2xl font-bold text-verde-oscuro mb-3">Renovamos nuestra terraza de invierno</h3>
+                        <p class="text-lg">
+                            Hemos acondicionado nuestra terraza con nuevos calefactores y mantas para que puedas seguir disfrutando de ella incluso en los días más fríos. ¡Tu rincón favorito, ahora más acogedor que nunca!
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
         <!-- FAQ -->
         <section id="faq" class="container mx-auto px-4 py-16">
             <h2 class="text-4xl font-bold text-verde-oscuro mb-12 text-center relative">
@@ -477,7 +678,7 @@
                     <summary class="faq-question bg-verde-oscuro text-white p-5 cursor-pointer font-bold text-lg flex justify-between items-center group">
                         ¿Tenéis terraza?
                         <i class="fas fa-chevron-down transition-transform duration-300 group-open:rotate-180"></i>
-                    </sUmmary>
+                    </summary>
                     <div class="faq-answer p-5 text-lg">
                         Sí, contamos con una acogedora terraza perfecta para disfrutar del buen tiempo. Es ideal para tomar algo tranquilamente y charlar con amigos.
                     </div>
@@ -524,7 +725,7 @@
                     <h3 class="text-verde-oscuro text-2xl font-bold mb-4">Síguenos</h3>
                     <p class="mb-6 text-lg">
                         Mantente al día con nuestras novedades, promociones especiales y el día a día del Café Rivoli.
-                    </op>
+                    </p>
                     <div class="social-links flex space-x-4">
                         <a href="https://www.facebook.com/cafebarrivoli/?locale=es_ES" target="_blank" class="social-btn flex items-center gap-2 py-3 px-6 bg-verde-oscuro text-white rounded-md font-bold hover:bg-dorado hover:text-verde-oscuro transition-all transform hover:-translate-y-0.5">
                             <i class="fab fa-facebook-f text-2xl"></i>
