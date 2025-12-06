@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- ===================================================================== -->
     <!-- ==================== METADATOS SEO AÑADIDOS ======================= -->
     <!-- ===================================================================== -->
@@ -16,7 +16,7 @@
 
     <!-- Palabras Clave (Keywords) - Ayudan a definir el tema -->
     <meta name="keywords" content="café bar rivoli soria, bar en soria, tomar vermut soria, jamón gratis soria, bar de tapas soria, bar carretera de logroño soria, vicente martín bueno, bares en soria, pinchos soria">
-    
+
     <!-- Autor -->
     <meta name="author" content="Café Bar Rivoli">
 
@@ -75,38 +75,15 @@
 
     <!-- Carga de Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Configuración de Tailwind -->
+    <script src="js/tailwind-config.js"></script>
+
     <!-- Carga de Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <style>
-        /* Estilos personalizados para el fondo del Hero */
-        .hero-bg {
-            /* Foto de portada (Vermut) */
-            background-image: linear-gradient(rgba(26, 77, 46, 0.7), rgba(45, 80, 22, 0.7)), 
-                              url('https://i.imgur.com/lgGHv6h.jpeg');
-        }
-    </style>
 
-    <script>
-        // Configuración de Tailwind para usar tus colores y fuente
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        'verde-oscuro': '#1a4d2e',
-                        'verde-medio': '#2d5016',
-                        'verde-claro': '#4a7c59',
-                        'dorado': '#d4af37',
-                        'beige': '#f4f1e8',
-                        'gris': '#333333',
-                    },
-                    fontFamily: {
-                        serif: ['Georgia', 'serif'],
-                    }
-                }
-            }
-        }
-    </script>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="font-serif bg-beige text-gris leading-relaxed">
 
@@ -114,7 +91,7 @@
     <header class="bg-gradient-to-r from-verde-oscuro to-verde-medio text-white p-4 sticky top-0 z-50 shadow-lg">
         <nav class="container mx-auto flex justify-between items-center">
             <a href="#inicio" class="text-2xl font-bold text-dorado">Café Rivoli</a>
-            
+
             <button id="menu-toggle" class="md:hidden text-2xl">
                 <i class="fas fa-bars"></i>
             </button>
@@ -157,7 +134,7 @@
             <div class="hero-content">
                 <h1 class="text-5xl md:text-6xl font-bold mb-4 text-dorado" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Café Bar Rivoli</h1>
                 <p class="text-xl md:text-2xl mb-8 italic">Tradición y sabor en Soria desde 2001</p>
-                
+
                 <a href="#menu" class="bg-dorado text-verde-oscuro py-3 px-8 rounded-md font-bold text-lg hover:bg-white transition-all transform hover:-translate-y-0.5 shadow-lg">Descubre Nuestra Selección</a>
             </div>
         </section>
@@ -189,21 +166,21 @@
                 Sobre Nosotros
                 <span class="after:block after:w-24 after:h-1 after:bg-dorado after:mx-auto after:mt-4"></span>
             </h2>
-            
+
             <!-- ===================================================================== -->
             <!-- =========== CORRECCIÓN DE LAYOUT (SOBRE NOSOTROS) =================== -->
             <!-- ===================================================================== -->
-            
+
             <!-- CAMBIO: Grid simple de 2 columnas en 'lg', alineado al inicio -->
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-                
+
                 <!-- Columna 1: TODO el texto (párrafos + destacados) -->
                 <div class="about-text">
                     <!-- CAMBIO: Texto devuelto a 'text-lg' para un look más natural -->
                     <p class="mb-4 text-lg">Bienvenidos al <strong>Café Bar Rivoli</strong>, un rincón acogedor en Soria donde la tradición y la calidez se encuentran en cada rincón. Con más de <strong>20 años de historia</strong>, hemos sido testigos de miles de conversaciones, celebraciones y momentos especiales de nuestros clientes.</p>
                     <p class="mb-4 text-lg">Nos enorgullece ofrecer un ambiente familiar donde cada persona que cruza nuestra puerta es recibida como un amigo. Nuestra filosofía es simple: buen producto, buen trato y un espacio donde sentirse como en casa.</p>
                     <p class="mb-6 text-lg">Ya sea para disfrutar de un café por la mañana, un vermut al mediodía o un cubalibré por la noche, en Rivoli encontrarás siempre una sonrisa y la mejor atención.</p>
-                    
+
                     <!-- CAMBIO: Los destacados ahora están DEBAJO de los párrafos, no anidados -->
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10">
                         <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-dorado">
@@ -228,7 +205,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Columna 2: Fotos LADO A LADO -->
                 <!-- CAMBIO: 'grid-cols-2' para poner fotos lado a lado y equilibrar altura -->
                 <div class="about-image grid grid-cols-2 gap-6 items-start">
@@ -236,7 +213,7 @@
                     <img src="https://i.imgur.com/72dRYpX.jpeg" alt="Vicente y camarero en la barra del Café Rivoli" class="rounded-lg shadow-xl w-full h-auto object-cover">
                 </div>
             </div>
-            
+
             <!-- ===================================================================== -->
             <!-- =================== FIN CORRECCIÓN DE LAYOUT ======================== -->
             <!-- ===================================================================== -->
@@ -275,9 +252,9 @@
             <p class="text-center text-lg max-w-2xl mx-auto mb-12">
                 Una selección de nuestros pinchos más populares, elaborados con ingredientes frescos y todo el sabor de la cocina tradicional. (Estos son ejemplos, puedes modificarlos).
             </p>
-            
+
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                
+
                 <!-- Pincho 1: Tortilla de Patata -->
                 <div class="pincho-card group bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:-translate-y-2">
                     <img src="https://i.imgur.com/3sP8kpq.jpeg" alt="Pincho de Tortilla de Patata jugosa" class="w-full h-56 object-cover">
@@ -344,9 +321,9 @@
             <p class="text-center text-lg max-w-2xl mx-auto mb-12">
                 Te ofrecemos una cuidada selección de productos de primera calidad. Desde las cervezas y vinos más clásicos hasta los cócteles más elaborados. (Precios no incluidos)
             </p>
-            
+
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                
+
                 <!-- Categoría 1: Cervezas -->
                 <div class="menu-category bg-white p-8 rounded-lg shadow-lg border-t-4 border-verde-oscuro">
                     <h3 class="text-verde-oscuro text-2xl font-bold mb-6 flex items-center gap-3"><i class="fas fa-beer"></i> Cervezas</h3>
@@ -368,12 +345,12 @@
                         <li>Vermuts: de Grifo, Siderit, Martini, El Bandarra, Yzaguirre</li>
                     </ul>
                 </div>
-                
+
                 <!-- Foto Decorativa 1 -->
                 <div class="menu-photo bg-cover bg-center rounded-lg shadow-lg" style="background-image: url('https://i.imgur.com/e1ZtFUE.png'); min-height: 250px;">
                     <!-- Foto de pinchos -->
                 </div>
-                
+
                 <!-- Categoría 3: Gin Tonics y Combinados -->
                 <div class="menu-category bg-white p-8 rounded-lg shadow-lg border-t-4 border-verde-oscuro">
                     <h3 class="text-verde-oscuro text-2xl font-bold mb-6 flex items-center gap-3"><i class="fas fa-glass-whiskey"></i> Gin Tonics y Combinados</h3>
@@ -457,7 +434,7 @@
             </div>
             <p class="text-center text-verde-oscuro font-bold text-xl mt-10">
                 <i class="fas fa-drumstick-bite text-dorado"></i> Recuerda: ¡Jamón gratis los jueves con tu consumición!
-            </p> 
+            </p>
         </section>
 
         <!-- Ubicación -->
@@ -617,7 +594,7 @@
                     <span class="after:block after:w-24 after:h-1 after:bg-dorado after:mx-auto after:mt-4"></span>
                 </h2>
                 <div class="max-w-4xl mx-auto space-y-8">
-                    
+
                     <!-- Noticia 1 -->
                     <div class="noticia-item bg-white p-8 rounded-lg shadow-lg border-l-4 border-verde-oscuro">
                         <p class="text-sm text-gray-500 mb-1">30 de noviembre de 2025</p>
@@ -710,7 +687,7 @@
                     <div class="info-item flex items-center gap-4 mb-4 text-lg">
                         <i class="fas fa-phone text-dorado text-xl w-6 text-center"></i>
                         <span>
-                            <a href="tel:639868446" class="text-verde-oscuro hover:text-dorado">639 868 446</a> / 
+                            <a href="tel:639868446" class="text-verde-oscuro hover:text-dorado">639 868 446</a> /
                             <a href="tel:975227420" class="text-verde-oscuro hover:text-dorado">975 22 74 20</a>
                         </span>
                     </div>
@@ -752,7 +729,7 @@
     </footer>
 
     <!-- Google Analytics (Para saber CÓMO te encuentra la gente) -->
-    <!-- 
+    <!--
         PASOS A SEGUIR:
         1. Crea una cuenta gratis en Google Analytics (https://analytics.google.com/)
         2. Crea una "propiedad" para tu web.
@@ -761,33 +738,11 @@
     -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-TU_ID_DE_GOOGLE_ANALYTICS"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-TU_ID_DE_GOOGLE_ANALYTICS');
-    </script>
+    <script src="js/analytics.js"></script>
     <!-- Fin Google Analytics -->
 
+    <!-- Lógica del Menú -->
+    <script src="js/script.js"></script>
 
-    <script>
-        // Lógica para el menú móvil
-        const menuToggle = document.getElementById('menu-toggle');
-        const mobileMenu = document.getElementById('mobile-menu');
-
-        menuToggle.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-        });
-
-        // Opcional: Cerrar menú móvil al hacer clic en un enlace
-        document.querySelectorAll('#mobile-menu a, #nav-links a').forEach(link => {
-            link.addEventListener('click', () => { 
-                if (!mobileMenu.classList.contains('hidden')) {
-                    mobileMenu.classList.add('hidden');
-                }
-            });
-        });
-    </script>
 </body>
 </html>
