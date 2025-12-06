@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Pinchos - Café Bar Rivoli</title>
+    <meta name="description" content="Descubre nuestra deliciosa variedad de pinchos en Café Bar Rivoli, Soria.">
+
+    <!-- Carga de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configuración de Tailwind -->
+    <script src="js/tailwind-config.js"></script>
+    <!-- Carga de Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="font-sans bg-beige text-gris leading-relaxed">
+
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-verde-oscuro to-verde-medio text-white p-4 sticky top-0 z-50 shadow-lg">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-dorado">Café Rivoli</a>
+            <button id="menu-toggle" class="md:hidden text-2xl">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul id="nav-links" class="hidden md:flex space-x-6">
+                <li><a href="index.html" class="hover:text-dorado transition-colors">Inicio</a></li>
+                <li><a href="index.html#nosotros" class="hover:text-dorado transition-colors">Nosotros</a></li>
+                <li><a href="index.html#jamon" class="hover:text-dorado transition-colors">Jamón Gratis</a></li>
+                <li><a href="#" class="text-dorado font-bold">Pinchos</a></li>
+                <li><a href="index.html#menu" class="hover:text-dorado transition-colors">Menú</a></li>
+                <li><a href="index.html#galeria" class="hover:text-dorado transition-colors">Galería</a></li>
+                <li><a href="index.html#contacto" class="hover:text-dorado transition-colors">Contacto</a></li>
+            </ul>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden">
+            <ul class="flex flex-col items-center space-y-4 py-4">
+                <li><a href="index.html" class="block w-full text-center hover:text-dorado transition-colors">Inicio</a></li>
+                <li><a href="#" class="block w-full text-center text-dorado font-bold">Pinchos</a></li>
+                <li><a href="index.html#contacto" class="block w-full text-center hover:text-dorado transition-colors">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="py-16">
+        <div class="container mx-auto px-4">
+            <h1 class="font-serif text-5xl font-bold text-verde-oscuro mb-4 text-center">Nuestra Barra de Pinchos</h1>
+            <p class="font-serif text-center text-xl mb-12 max-w-2xl mx-auto">Una explosión de sabor en cada bocado. Elaborados diariamente con productos frescos de Soria.</p>
+
+            <!-- Grid de Pinchos -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <!-- Pincho 1 -->
+                <div class="group relative overflow-hidden rounded-lg shadow-lg aspect-square">
+                    <img src="https://images.unsplash.com/photo-1564834724105-918b73d1b9e0?q=80&w=800&auto=format&fit=crop" alt="Pincho Variado" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                        <h3 class="font-serif text-white font-bold text-lg">Tostas Variadas</h3>
+                    </div>
+                </div>
+                <!-- Pincho 2 -->
+                <div class="group relative overflow-hidden rounded-lg shadow-lg aspect-square">
+                    <img src="https://images.unsplash.com/photo-1626804475297-411dbe63c220?q=80&w=800&auto=format&fit=crop" alt="Tortilla de Patata" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                        <h3 class="font-serif text-white font-bold text-lg">Tortilla de Patata</h3>
+                    </div>
+                </div>
+                <!-- Pincho 3 -->
+                <div class="group relative overflow-hidden rounded-lg shadow-lg aspect-square">
+                    <img src="https://images.unsplash.com/photo-1579631542720-3a87824fff86?q=80&w=800&auto=format&fit=crop" alt="Gilda" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                        <h3 class="font-serif text-white font-bold text-lg">Gilda Clásica</h3>
+                    </div>
+                </div>
+                 <!-- Pincho 4 -->
+                 <div class="group relative overflow-hidden rounded-lg shadow-lg aspect-square">
+                    <img src="https://images.unsplash.com/photo-1512149177596-f817c7ef5d4c?q=80&w=800&auto=format&fit=crop" alt="Tapas Gourmet" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                        <h3 class="font-serif text-white font-bold text-lg">Delicias de Jamón</h3>
+                    </div>
+                </div>
+                 <!-- Pincho 5 -->
+                 <div class="group relative overflow-hidden rounded-lg shadow-lg aspect-square">
+                    <img src="https://images.unsplash.com/photo-1600271886742-f049cd451bba?q=80&w=800&auto=format&fit=crop" alt="Croquetas" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                        <h3 class="font-serif text-white font-bold text-lg">Croquetas Caseras</h3>
+                    </div>
+                </div>
+                 <!-- Pincho 6 -->
+                 <div class="group relative overflow-hidden rounded-lg shadow-lg aspect-square">
+                    <img src="https://images.unsplash.com/photo-1615486511269-e7b552d67d2f?q=80&w=800&auto=format&fit=crop" alt="Chorizo" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                        <h3 class="font-serif text-white font-bold text-lg">Chorizo al Vino</h3>
+                    </div>
+                </div>
+                 <!-- Pincho 7 -->
+                 <div class="group relative overflow-hidden rounded-lg shadow-lg aspect-square">
+                    <img src="https://images.unsplash.com/photo-1549488352-8d2a1d355931?q=80&w=800&auto=format&fit=crop" alt="Quesos" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                        <h3 class="font-serif text-white font-bold text-lg">Tabla de Quesos</h3>
+                    </div>
+                </div>
+                 <!-- Pincho 8 -->
+                 <div class="group relative overflow-hidden rounded-lg shadow-lg aspect-square">
+                    <img src="https://images.unsplash.com/photo-1625944525533-472f1181c3e4?q=80&w=800&auto=format&fit=crop" alt="Olivas" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                        <h3 class="font-serif text-white font-bold text-lg">Aceitunas Aliñadas</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="index.html#contacto" class="inline-block bg-dorado text-verde-oscuro py-3 px-8 rounded-full font-bold text-lg hover:bg-verde-oscuro hover:text-white transition-all transform hover:-translate-y-1 shadow-lg">
+                    ¿Se te ha abierto el apetito? ¡Ven a visitarnos!
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer (Simplificado) -->
+    <footer class="bg-verde-oscuro text-white text-center py-10">
+        <p class="font-bold text-lg">Café Bar Rivoli</p>
+        <p class="mt-4 text-sm opacity-80">© 2025 Café Bar Rivoli.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

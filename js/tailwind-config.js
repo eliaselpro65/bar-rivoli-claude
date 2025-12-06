@@ -7,28 +7,30 @@
  * @property {Object} theme - The theme configuration object.
  * @property {Object} theme.extend - The extensions to the default theme.
  * @property {Object} theme.extend.colors - Custom color palette.
- * @property {string} theme.extend.colors.verde-oscuro - Dark green color (#1a4d2e).
- * @property {string} theme.extend.colors.verde-medio - Medium green color (#2d5016).
- * @property {string} theme.extend.colors.verde-claro - Light green color (#4a7c59).
- * @property {string} theme.extend.colors.dorado - Gold color (#d4af37).
- * @property {string} theme.extend.colors.beige - Beige color (#f4f1e8).
- * @property {string} theme.extend.colors.gris - Grey color (#333333).
+ * @property {string} theme.extend.colors.verde-oscuro - Deep Forest Green (#0f2f20).
+ * @property {string} theme.extend.colors.verde-medio - Classic Racing Green (#1a4d2e).
+ * @property {string} theme.extend.colors.verde-claro - Sage Green (#4a7c59).
+ * @property {string} theme.extend.colors.dorado - Muted Gold (#c5a028).
+ * @property {string} theme.extend.colors.beige - Off-White/Cream (#f9f8f4).
+ * @property {string} theme.extend.colors.gris - Dark Grey (#1a1a1a).
  * @property {Object} theme.extend.fontFamily - Custom font families.
  * @property {Array<string>} theme.extend.fontFamily.serif - Serif font stack (['Georgia', 'serif']).
+ * @property {Array<string>} theme.extend.fontFamily.sans - Sans-serif font stack (['Helvetica Neue', 'Arial', 'sans-serif']).
  */
 tailwind.config = {
     theme: {
         extend: {
             colors: {
-                'verde-oscuro': '#1a4d2e',
-                'verde-medio': '#2d5016',
+                'verde-oscuro': '#0f2f20', // Más oscuro y elegante
+                'verde-medio': '#1a4d2e',
                 'verde-claro': '#4a7c59',
-                'dorado': '#d4af37',
-                'beige': '#f4f1e8',
-                'gris': '#333333',
+                'dorado': '#c5a028', // Dorado más metálico
+                'beige': '#f9f8f4', // Beige más limpio
+                'gris': '#1a1a1a', // Gris casi negro
             },
             fontFamily: {
-                serif: ['Georgia', 'serif'],
+                serif: ['Playfair Display', 'Georgia', 'serif'], // Fuente más elegante para títulos
+                sans: ['Inter', 'Helvetica Neue', 'Arial', 'sans-serif'], // Fuente moderna para texto
             }
         }
     }
