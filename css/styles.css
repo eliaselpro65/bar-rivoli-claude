@@ -1,0 +1,6 @@
+/* Estilos personalizados para el fondo del Hero */
+.hero-bg {
+    /* Foto de portada (Vermut) */
+    background-image: linear-gradient(rgba(26, 77, 46, 0.7), rgba(45, 80, 22, 0.7)),
+                      url('https://i.imgur.com/lgGHv6h.jpeg');
+}
