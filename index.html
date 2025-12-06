@@ -4,745 +4,340 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- ===================================================================== -->
-    <!-- ==================== METADATOS SEO AÑADIDOS ======================= -->
-    <!-- ===================================================================== -->
-
-    <!-- Título (Lo que se ve en la pestaña de Google) -->
-    <title>Café Bar Rivoli - Soria | Bar Tradicional desde 2001</title>
-
-    <!-- Descripción (El texto que aparece debajo del título en Google) -->
-    <meta name="description" content="Café Bar Rivoli en Soria. Más de 20 años sirviendo los mejores vermuts, vinos y cubalibres. ¡Famoso por el jamón gratis de los jueves!">
-
-    <!-- Palabras Clave (Keywords) - Ayudan a definir el tema -->
-    <meta name="keywords" content="café bar rivoli soria, bar en soria, tomar vermut soria, jamón gratis soria, bar de tapas soria, bar carretera de logroño soria, vicente martín bueno, bares en soria, pinchos soria">
-
-    <!-- Autor -->
+    <!-- SEO Metadata -->
+    <title>Café Bar Rivoli - Soria | Bar Tradicional & Moderno</title>
+    <meta name="description" content="Café Bar Rivoli en Soria. La mejor experiencia de bar: vermuts, vinos y ambiente inigualable. ¡Famoso por el jamón gratis de los jueves!">
+    <meta name="keywords" content="café bar rivoli soria, bar soria, vermut, tapas, jamón gratis">
     <meta name="author" content="Café Bar Rivoli">
 
-    <!-- URL Canónica (IMPORTANTE: Cambiar "TU-DOMINIO.com" por tu dominio real) -->
-    <link rel="canonical" href="https://www.TU-DOMINIO.com">
-
-    <!-- Protocolo Open Graph (Para compartir en Facebook, WhatsApp, etc.) -->
-    <meta property="og:title" content="Café Bar Rivoli - Soria | Tradición desde 2001">
-    <meta property="og:description" content="Ambiente familiar, los mejores vermuts y el clásico jamón gratis de los jueves. ¡Visítanos en Soria!">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Café Bar Rivoli - Soria">
+    <meta property="og:description" content="Ambiente selecto, los mejores vermuts y el clásico jamón gratis de los jueves.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.TU-DOMINIO.com">
-    <meta property="og:image" content="https://i.imgur.com/lgGHv6h.jpeg"> <!-- Imagen de portada -->
-    <meta property="og:locale" content="es_ES">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=1200&auto=format&fit=crop">
 
-    <!-- Twitter Card (Para compartir en Twitter) -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Café Bar Rivoli - Soria | Tradición desde 2001">
-    <meta name="twitter:description" content="Ambiente familiar, los mejores vermuts y el clásico jamón gratis de los jueves. ¡Visítanos en Soria!">
-    <meta name="twitter:image" content="https://i.imgur.com/lgGHv6h.jpeg">
-
-    <!-- Schema.org (JSON-LD) - ¡LO MÁS IMPORTANTE PARA SEO LOCAL! -->
-    <!-- Esto le dice a Google "Esto es un BAR en Soria con esta dirección y horario" -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BarOrPub",
-      "name": "Café Bar Rivoli",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Carretera de Logroño, 37",
-        "addressLocality": "Soria",
-        "postalCode": "42004",
-        "addressCountry": "ES"
-      },
-      "telephone": "+34639868446",
-      "email": "vicentemartinbueno@gmail.com",
-      "url": "https://www.TU-DOMINIO.com",
-      "image": "https://i.imgur.com/lgGHv6h.jpeg",
-      "servesCuisine": "Tapas",
-      "openingHoursSpecification": [
-        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "16:00", "closes": "01:00" },
-        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Wednesday", "opens": "16:00", "closes": "01:00" },
-        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "16:00", "closes": "01:00" },
-        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "12:00", "closes": "02:00" },
-        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "12:00", "closes": "02:00" },
-        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "16:00", "closes": "01:00" }
-      ],
-      "priceRange": "€",
-      "description": "Bar tradicional en Soria desde 2001, famoso por su vermut, ambiente familiar y el jamón gratis de los jueves."
-    }
-    </script>
-
-    <!-- ===================================================================== -->
-    <!-- ================== FIN METADATOS SEO ============================== -->
-    <!-- ===================================================================== -->
-
-    <!-- Carga de Tailwind CSS -->
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- Configuración de Tailwind -->
+    <!-- Tailwind Config -->
     <script src="js/tailwind-config.js"></script>
-
-    <!-- Carga de Font Awesome -->
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
-    <!-- Estilos CSS -->
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body class="font-serif bg-beige text-gris leading-relaxed">
+<body class="font-sans bg-beige text-gris leading-relaxed">
 
     <!-- Header -->
     <header class="bg-gradient-to-r from-verde-oscuro to-verde-medio text-white p-4 sticky top-0 z-50 shadow-lg">
         <nav class="container mx-auto flex justify-between items-center">
-            <a href="#inicio" class="text-2xl font-bold text-dorado">Café Rivoli</a>
+            <a href="#inicio" class="text-2xl font-bold text-dorado tracking-wider uppercase">Café Rivoli</a>
 
-            <button id="menu-toggle" class="md:hidden text-2xl">
+            <button id="menu-toggle" class="md:hidden text-2xl text-dorado">
                 <i class="fas fa-bars"></i>
             </button>
 
-            <ul id="nav-links" class="hidden md:flex space-x-6">
+            <ul id="nav-links" class="hidden md:flex space-x-8 items-center font-medium">
                 <li><a href="#inicio" class="hover:text-dorado transition-colors">Inicio</a></li>
                 <li><a href="#nosotros" class="hover:text-dorado transition-colors">Nosotros</a></li>
-                <li><a href="#jamon" class="hover:text-dorado transition-colors">Jamón Gratis</a></li>
-                <li><a href="#pinchos" class="hover:text-dorado transition-colors">Pinchos</a></li>
+                <li><a href="#jamon" class="hover:text-dorado transition-colors">Jamón Jueves</a></li>
+                <li><a href="pinchos.html" class="hover:text-dorado transition-colors">Pinchos</a></li>
                 <li><a href="#menu" class="hover:text-dorado transition-colors">Menú</a></li>
                 <li><a href="#galeria" class="hover:text-dorado transition-colors">Galería</a></li>
-                <li><a href="#horarios" class="hover:text-dorado transition-colors">Horarios</a></li>
-                <li><a href="#ubicacion" class="hover:text-dorado transition-colors">Ubicación</a></li>
-                <li><a href="#resenas" class="hover:text-dorado transition-colors">Reseñas</a></li>
-                <li><a href="#noticias" class="hover:text-dorado transition-colors">Noticias</a></li>
-                <li><a href="#faq" class="hover:text-dorado transition-colors">FAQ</a></li>
                 <li><a href="#contacto" class="hover:text-dorado transition-colors">Contacto</a></li>
             </ul>
         </nav>
 
-        <div id="mobile-menu" class="hidden md:hidden">
-            <ul class="flex flex-col items-center space-y-4 py-4">
+        <div id="mobile-menu" class="hidden md:hidden bg-verde-oscuro absolute top-full left-0 w-full shadow-xl">
+            <ul class="flex flex-col items-center space-y-4 py-6 border-t border-verde-medio">
                 <li><a href="#inicio" class="block w-full text-center hover:text-dorado transition-colors">Inicio</a></li>
                 <li><a href="#nosotros" class="block w-full text-center hover:text-dorado transition-colors">Nosotros</a></li>
-                            <li><a href="#jamon" class="block w-full text-center hover:text-dorado transition-colors">Jamón Gratis</a></li>
-                            <li><a href="#pinchos" class="block w-full text-center hover:text-dorado transition-colors">Pinchos</a></li>
-                            <li><a href="#menu" class="block w-full text-center hover:text-dorado transition-colors">Menú</a></li>                <li><a href="#galeria" class="block w-full text-center hover:text-dorado transition-colors">Galería</a></li>
-                <li><a href="#horarios" class="block w-full text-center hover:text-dorado transition-colors">Horarios</a></li>
-                <li><a href="#ubicacion" class="block w-full text-center hover:text-dorado transition-colors">Ubicación</a></li>
-                            <li><a href="#resenas" class="block w-full text-center hover:text-dorado transition-colors">Reseñas</a></li>
-                            <li><a href="#noticias" class="block w-full text-center hover:text-dorado transition-colors">Noticias</a></li>
-                            <li><a href="#faq" class="block w-full text-center hover:text-dorado transition-colors">FAQ</a></li>                <li><a href="#contacto" class="block w-full text-center hover:text-dorado transition-colors">Contacto</a></li>
+                <li><a href="#jamon" class="block w-full text-center hover:text-dorado transition-colors">Jamón Jueves</a></li>
+                <li><a href="pinchos.html" class="block w-full text-center hover:text-dorado transition-colors font-bold">Pinchos</a></li>
+                <li><a href="#menu" class="block w-full text-center hover:text-dorado transition-colors">Menú</a></li>
+                <li><a href="#galeria" class="block w-full text-center hover:text-dorado transition-colors">Galería</a></li>
+                <li><a href="#contacto" class="block w-full text-center hover:text-dorado transition-colors">Contacto</a></li>
             </ul>
         </div>
     </header>
 
     <main>
         <!-- Hero Section -->
-        <section id="inicio" class="hero-bg h-[600px] flex items-center justify-center text-center text-white bg-cover bg-center">
-            <div class="hero-content">
-                <h1 class="text-5xl md:text-6xl font-bold mb-4 text-dorado" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Café Bar Rivoli</h1>
-                <p class="text-xl md:text-2xl mb-8 italic">Tradición y sabor en Soria desde 2001</p>
+        <section id="inicio" class="relative h-[80vh] flex items-center justify-center text-center text-white overflow-hidden">
+            <!-- Hero Image Background -->
+            <div class="absolute inset-0 z-0">
+                 <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=1920&auto=format&fit=crop" alt="Ambiente de Bar" class="w-full h-full object-cover brightness-50">
+            </div>
 
-                <a href="#menu" class="bg-dorado text-verde-oscuro py-3 px-8 rounded-md font-bold text-lg hover:bg-white transition-all transform hover:-translate-y-0.5 shadow-lg">Descubre Nuestra Selección</a>
+            <div class="relative z-10 p-6 max-w-4xl animate-fade-in-up">
+                <h1 class="font-serif text-6xl md:text-7xl font-bold mb-6 text-dorado drop-shadow-lg tracking-tight">Café Bar Rivoli</h1>
+                <p class="font-serif text-2xl md:text-3xl mb-10 font-light italic text-gray-200">Elegancia, tradición y el mejor ambiente de Soria.</p>
+
+                <div class="flex flex-col md:flex-row gap-4 justify-center">
+                    <a href="#menu" class="bg-dorado text-verde-oscuro py-3 px-8 rounded-none uppercase tracking-widest font-bold text-sm hover:bg-white transition-all transform hover:-translate-y-1 shadow-lg border border-dorado">
+                        Nuestra Carta
+                    </a>
+                    <a href="#contacto" class="bg-transparent border border-white text-white py-3 px-8 rounded-none uppercase tracking-widest font-bold text-sm hover:bg-white hover:text-verde-oscuro transition-all transform hover:-translate-y-1 shadow-lg">
+                        Visítanos
+                    </a>
+                </div>
             </div>
         </section>
 
-        <!-- Pincho de la Semana -->
-        <section id="pincho-semana" class="bg-verde-claro/20 py-16">
+        <!-- About Us Section (Redesigned) -->
+        <section id="nosotros" class="w-full bg-white">
+            <div class="flex flex-col lg:flex-row min-h-[600px]">
+                <!-- Image Column (Immersive) -->
+                <div class="lg:w-1/2 relative h-[400px] lg:h-auto overflow-hidden group">
+                     <img src="https://images.unsplash.com/photo-1485686531765-ba63b07845a7?q=80&w=1200&auto=format&fit=crop" alt="Interior Bar Rivoli" class="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105">
+                </div>
+
+                <!-- Content Column -->
+                <div class="lg:w-1/2 flex flex-col justify-center p-12 lg:p-24 bg-beige">
+                    <h2 class="font-serif text-4xl font-bold text-verde-oscuro mb-8 uppercase tracking-wide border-l-4 border-dorado pl-6">
+                        Sobre Nosotros
+                    </h2>
+                    <p class="text-xl text-gray-700 mb-6 leading-relaxed">
+                        Bienvenidos a <span class="text-dorado font-bold">Café Bar Rivoli</span>. Más que un bar, somos un punto de encuentro en el corazón de Soria. Con una trayectoria consolidada, fusionamos la calidez de lo tradicional con un toque moderno y sofisticado.
+                    </p>
+                    <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+                        Aquí cada detalle cuenta. Desde la selección de nuestros vinos hasta la perfecta tirada de nuestras cervezas. Un espacio pensado para desconectar, celebrar y disfrutar de la buena compañía.
+                    </p>
+
+                    <div class="grid grid-cols-2 gap-8 mt-4">
+                        <div class="flex items-center gap-4">
+                            <i class="fas fa-wine-glass text-dorado text-3xl"></i>
+                            <span class="font-bold text-verde-oscuro">Vinos Selectos</span>
+                        </div>
+                         <div class="flex items-center gap-4">
+                            <i class="fas fa-music text-dorado text-3xl"></i>
+                            <span class="font-bold text-verde-oscuro">Ambiente Único</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pinchos Section (Overhauled) -->
+        <section id="pinchos" class="py-24 bg-gray-50">
             <div class="container mx-auto px-4">
-                <div class="bg-white rounded-lg shadow-xl p-8 md:p-12 grid grid-cols-1 md:grid-cols-3 gap-8 items-center border-l-8 border-dorado">
-                    <!-- Columna de Texto -->
-                    <div class="md:col-span-2">
-                        <h2 class="text-3xl md:text-4xl font-bold text-verde-oscuro mb-4">Nuestro Pincho de la Semana</h2>
-                        <h3 class="text-2xl md:text-3xl font-bold text-dorado mb-4">Torreznos de Soria</h3>
-                        <p class="text-lg mb-6">
-                            ¡No te puedes perder nuestros auténticos Torreznos de Soria! Crujientes, sabrosos y con la marca de garantía. El acompañante perfecto para tu vermut o tu cerveza. ¡Una delicia que te transportará al corazón de Soria!
-                        </p>
-                        <a href="#menu" class="bg-dorado text-verde-oscuro py-2 px-6 rounded-md font-bold text-lg hover:bg-verde-oscuro hover:text-white transition-all transform hover:-translate-y-0.5 shadow-lg">Ver más en el menú</a>
+                <div class="text-center mb-16">
+                    <h2 class="font-serif text-4xl font-bold text-verde-oscuro uppercase tracking-widest mb-4">Nuestros Pinchos</h2>
+                    <p class="font-serif text-gray-500 italic">Pequeños bocados, grandes placeres.</p>
+                </div>
+
+                <!-- Simplified Gallery (3 Featured) -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                    <!-- Pincho 1 -->
+                    <div class="group relative h-80 overflow-hidden rounded-lg shadow-xl cursor-pointer">
+                        <img src="https://images.unsplash.com/photo-1564834724105-918b73d1b9e0?q=80&w=800&auto=format&fit=crop" alt="Pincho Gourmet" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-90"></div>
+                        <div class="absolute bottom-6 left-6">
+                             <h3 class="font-serif text-white text-2xl font-bold">Tapas Gourmet</h3>
+                        </div>
                     </div>
-                    <!-- Columna de Imagen -->
-                    <div class="md:col-span-1">
-                        <img src="https://i.imgur.com/8dE1t1B.jpeg" alt="Ración de Torreznos de Soria crujientes" class="rounded-lg shadow-md w-full h-auto object-cover">
+
+                     <!-- Pincho 2 -->
+                     <div class="group relative h-80 overflow-hidden rounded-lg shadow-xl cursor-pointer">
+                        <img src="https://images.unsplash.com/photo-1626804475297-411dbe63c220?q=80&w=800&auto=format&fit=crop" alt="Tortilla" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-90"></div>
+                        <div class="absolute bottom-6 left-6">
+                             <h3 class="font-serif text-white text-2xl font-bold">Tortilla Casera</h3>
+                        </div>
                     </div>
+
+                     <!-- Pincho 3 -->
+                     <div class="group relative h-80 overflow-hidden rounded-lg shadow-xl cursor-pointer">
+                        <img src="https://images.unsplash.com/photo-1579631542720-3a87824fff86?q=80&w=800&auto=format&fit=crop" alt="Gildas" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-90"></div>
+                        <div class="absolute bottom-6 left-6">
+                             <h3 class="font-serif text-white text-2xl font-bold">Gildas</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="text-center">
+                    <a href="pinchos.html" class="inline-block bg-verde-oscuro text-dorado py-4 px-10 rounded-full text-lg font-bold uppercase tracking-wider border-2 border-transparent hover:bg-transparent hover:border-verde-oscuro hover:text-verde-oscuro transition-all transform hover:scale-105 shadow-2xl">
+                        Ver Todos Los Pinchos <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
                 </div>
             </div>
-        </section>
-
-        <!-- Sobre Nosotros -->
-        <section id="nosotros" class="container mx-auto px-4 py-16">
-            <h2 class="text-4xl font-bold text-verde-oscuro mb-12 text-center relative">
-                Sobre Nosotros
-                <span class="after:block after:w-24 after:h-1 after:bg-dorado after:mx-auto after:mt-4"></span>
-            </h2>
-
-            <!-- ===================================================================== -->
-            <!-- =========== CORRECCIÓN DE LAYOUT (SOBRE NOSOTROS) =================== -->
-            <!-- ===================================================================== -->
-
-            <!-- CAMBIO: Grid simple de 2 columnas en 'lg', alineado al inicio -->
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-
-                <!-- Columna 1: TODO el texto (párrafos + destacados) -->
-                <div class="about-text">
-                    <!-- CAMBIO: Texto devuelto a 'text-lg' para un look más natural -->
-                    <p class="mb-4 text-lg">Bienvenidos al <strong>Café Bar Rivoli</strong>, un rincón acogedor en Soria donde la tradición y la calidez se encuentran en cada rincón. Con más de <strong>20 años de historia</strong>, hemos sido testigos de miles de conversaciones, celebraciones y momentos especiales de nuestros clientes.</p>
-                    <p class="mb-4 text-lg">Nos enorgullece ofrecer un ambiente familiar donde cada persona que cruza nuestra puerta es recibida como un amigo. Nuestra filosofía es simple: buen producto, buen trato y un espacio donde sentirse como en casa.</p>
-                    <p class="mb-6 text-lg">Ya sea para disfrutar de un café por la mañana, un vermut al mediodía o un cubalibré por la noche, en Rivoli encontrarás siempre una sonrisa y la mejor atención.</p>
-
-                    <!-- CAMBIO: Los destacados ahora están DEBAJO de los párrafos, no anidados -->
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10">
-                        <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-dorado">
-                            <i class="fas fa-wine-glass-alt text-verde-oscuro text-3xl mb-2"></i>
-                            <h4 class="font-bold text-lg">Vermuts de Calidad</h4>
-                            <p class="text-base">Amplia selección de los mejores vermuts</p>
-                        </div>
-                        <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-dorado">
-                            <i class="fas fa-glass-martini-alt text-verde-oscuro text-3xl mb-2"></i>
-                            <h4 class="font-bold text-lg">Cubalibres Excepcionales</h4>
-                            <p class="text-base">Preparados con las mejores marcas</p>
-                        </div>
-                        <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-dorado">
-                            <i class="fas fa-bread-slice text-verde-oscuro text-3xl mb-2"></i>
-                            <h4 class="font-bold text-lg">Pinchos Caseros</h4>
-                            <p class="text-base">Deliciosos pinchos elaborados diariamente</p>
-                        </div>
-                        <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-dorado">
-                            <i class="fas fa-heart text-verde-oscuro text-3xl mb-2"></i>
-                            <h4 class="font-bold text-lg">Ambiente Familiar</h4>
-                            <p class="text-base">Un lugar donde todos son bienvenidos</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Columna 2: Fotos LADO A LADO -->
-                <!-- CAMBIO: 'grid-cols-2' para poner fotos lado a lado y equilibrar altura -->
-                <div class="about-image grid grid-cols-2 gap-6 items-start">
-                    <img src="https://i.imgur.com/g5dqUOL.jpeg" alt="Interior del Café Bar Rivoli" class="rounded-lg shadow-xl w-full h-auto object-cover">
-                    <img src="https://i.imgur.com/72dRYpX.jpeg" alt="Vicente y camarero en la barra del Café Rivoli" class="rounded-lg shadow-xl w-full h-auto object-cover">
-                </div>
-            </div>
-
-            <!-- ===================================================================== -->
-            <!-- =================== FIN CORRECCIÓN DE LAYOUT ======================== -->
-            <!-- ===================================================================== -->
-
         </section>
 
         <!-- Especial Jamón del Jueves -->
-        <section id="jamon" class="bg-gradient-to-r from-verde-oscuro to-verde-medio text-white py-20 px-4 my-16 relative overflow-hidden">
-            <span class="absolute text-9xl opacity-10 top-0 right-0 transform translate-x-1/4 -translate-y-1/4" role="img" aria-label="jamon">🍖</span>
-            <div class="container mx-auto relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                <div>
-                    <h2 class="text-4xl font-bold text-dorado mb-8 text-center md:text-left relative">
-                        ¡Especial de los Jueves!
-                        <span class="after:block after:w-24 after:h-1 after:bg-white after:mx-auto md:after:mx-0 after:mt-4"></span>
-                    </h2>
-                    <p class="text-xl mb-8 text-center md:text-left">Ven a disfrutar de nuestra tradición más sabrosa</p>
-                    <div class="bg-white/10 p-8 rounded-lg border-2 border-dashed border-dorado">
-                        <h3 class="text-dorado text-3xl font-bold mb-4">Jamón Gratis con tu Consumición</h3>
-                        <p class="text-lg">Todos los jueves, con cualquier consumición que pidas, te invitamos a un delicioso plato de jamón de la mejor calidad.</p>
-                        <p class="mt-4 text-dorado font-bold text-lg">¡Una tradición que nos distingue y que nuestros clientes adoran!</p>
+        <section id="jamon" class="bg-verde-oscuro text-white py-24 relative overflow-hidden">
+             <!-- Background Texture/Image -->
+             <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+
+            <div class="container mx-auto px-4 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="order-2 lg:order-1">
+                    <h2 class="font-serif text-5xl font-bold text-dorado mb-6">Los Jueves de Jamón</h2>
+                    <p class="font-serif text-2xl font-light mb-8 text-gray-300">Una tradición sagrada en Rivoli.</p>
+                    <div class="bg-white/5 p-8 border-l-4 border-dorado backdrop-blur-sm">
+                        <p class="text-lg leading-relaxed mb-4">
+                            No hay jueves sin Rivoli. Con cada consumición, te invitamos a disfrutar de nuestro exquisito jamón serrano recién cortado.
+                        </p>
+                        <p class="text-dorado font-bold text-xl">
+                            ¡La excusa perfecta para reunirse!
+                        </p>
                     </div>
                 </div>
-                <div class="jamon-image">
-                    <!-- Foto de la sección (Pincho de Tortilla) -->
-                    <img src="https://i.imgur.com/BOg5zDU.jpeg" alt="Pincho de tortilla en plato" class="rounded-lg shadow-xl w-full h-auto object-cover max-h-96">
+                <div class="order-1 lg:order-2 relative">
+                    <div class="absolute inset-0 bg-dorado rounded-full blur-3xl opacity-20 transform translate-x-10 translate-y-10"></div>
+                    <img src="https://images.unsplash.com/photo-1529563021893-cc83c992d75f?q=80&w=800&auto=format&fit=crop" alt="Jamón Serrano" class="relative rounded-lg shadow-2xl w-full rotate-2 hover:rotate-0 transition-transform duration-500 border-4 border-white/10">
                 </div>
             </div>
         </section>
 
-        <!-- Pinchos Section -->
-        <section id="pinchos" class="container mx-auto px-4 py-16">
-            <h2 class="text-4xl font-bold text-verde-oscuro mb-12 text-center relative">
-                Nuestros Pinchos
-                <span class="after:block after:w-24 after:h-1 after:bg-dorado after:mx-auto after:mt-4"></span>
-            </h2>
-            <p class="text-center text-lg max-w-2xl mx-auto mb-12">
-                Una selección de nuestros pinchos más populares, elaborados con ingredientes frescos y todo el sabor de la cocina tradicional. (Estos son ejemplos, puedes modificarlos).
-            </p>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-                <!-- Pincho 1: Tortilla de Patata -->
-                <div class="pincho-card group bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:-translate-y-2">
-                    <img src="https://i.imgur.com/3sP8kpq.jpeg" alt="Pincho de Tortilla de Patata jugosa" class="w-full h-56 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold text-verde-oscuro mb-2">Tortilla de Patata</h3>
-                        <p class="text-base">Nuestra famosa tortilla, jugosa por dentro y dorada por fuera. Un clásico que nunca falla.</p>
-                    </div>
-                </div>
-
-                <!-- Pincho 2: Croquetas de Jamón -->
-                <div class="pincho-card group bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:-translate-y-2">
-                    <img src="https://i.imgur.com/aZCMq6c.jpeg" alt="Croquetas de jamón ibérico caseras" class="w-full h-56 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold text-verde-oscuro mb-2">Croquetas de Jamón</h3>
-                        <p class="text-base">Cremosas y llenas de sabor, hechas con jamón ibérico y una bechamel suave.</p>
-                    </div>
-                </div>
-
-                <!-- Pincho 3: Gilda -->
-                <div class="pincho-card group bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:-translate-y-2">
-                    <img src="https://i.imgur.com/4q3nZ8X.jpeg" alt="Gilda: brocheta de aceituna, anchoa y guindilla" class="w-full h-56 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold text-verde-oscuro mb-2">Gilda</h3>
-                        <p class="text-base">La combinación perfecta de anchoa, aceituna y guindilla. El pincho original para abrir el apetito.</p>
-                    </div>
-                </div>
-
-                <!-- Pincho 4: Ensaladilla Rusa -->
-                <div class="pincho-card group bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:-translate-y-2">
-                    <img src="https://i.imgur.com/T5f1Jj2.jpeg" alt="Tapa de ensaladilla rusa casera" class="w-full h-56 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold text-verde-oscuro mb-2">Ensaladilla Rusa</h3>
-                        <p class="text-base">Nuestra receta tradicional con patata, atún, huevo y una mayonesa suave. ¡Irresistible!</p>
-                    </div>
-                </div>
-
-                <!-- Pincho 5: Chorizo al Vino -->
-                <div class="pincho-card group bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:-translate-y-2">
-                    <img src="https://i.imgur.com/vjL0a2K.jpeg" alt="Cazuelita de chorizo cocido al vino tinto" class="w-full h-56 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold text-verde-oscuro mb-2">Chorizo al Vino</h3>
-                        <p class="text-base">Tierno chorizo cocido lentamente en vino tinto de la región, con un sabor profundo y delicioso.</p>
-                    </div>
-                </div>
-
-                <!-- Pincho 6: Morro Frito -->
-                <div class="pincho-card group bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:-translate-y-2">
-                    <img src="https://i.imgur.com/p8f8Sg2.jpeg" alt="Ración de morro frito crujiente" class="w-full h-56 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold text-verde-oscuro mb-2">Morro Frito</h3>
-                        <p class="text-base">Crujiente por fuera y tierno por dentro. Un pincho contundente y sabroso, perfecto con una cerveza fría.</p>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- Menú Rediseñado -->
-        <section id="menu" class="container mx-auto px-4 py-16">
-            <h2 class="text-4xl font-bold text-verde-oscuro mb-12 text-center relative">
+        <!-- Menu Section -->
+        <section id="menu" class="container mx-auto px-4 py-24">
+            <h2 class="font-serif text-4xl font-bold text-verde-oscuro mb-16 text-center uppercase tracking-widest">
                 Nuestra Selección
-                <span class="after:block after:w-24 after:h-1 after:bg-dorado after:mx-auto after:mt-4"></span>
             </h2>
-            <p class="text-center text-lg max-w-2xl mx-auto mb-12">
-                Te ofrecemos una cuidada selección de productos de primera calidad. Desde las cervezas y vinos más clásicos hasta los cócteles más elaborados. (Precios no incluidos)
-            </p>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
 
-                <!-- Categoría 1: Cervezas -->
-                <div class="menu-category bg-white p-8 rounded-lg shadow-lg border-t-4 border-verde-oscuro">
-                    <h3 class="text-verde-oscuro text-2xl font-bold mb-6 flex items-center gap-3"><i class="fas fa-beer"></i> Cervezas</h3>
-                    <ul class="list-disc list-inside space-y-2 text-lg">
-                        <li>De grifo: Alhambra</li>
-                        <li>Botellín: Mahou, Amstel, Alhambra</li>
-                        <li>Especiales: Paulaner, 1906</li>
-                        <li>Variedades: Tostada, Sin Alcohol</li>
+                <!-- Drinks Category -->
+                <div class="bg-white p-10 rounded-sm shadow-xl border-t-8 border-verde-oscuro hover:shadow-2xl transition-shadow">
+                    <div class="flex items-center gap-4 mb-8">
+                        <div class="p-4 bg-beige rounded-full text-dorado">
+                             <i class="fas fa-cocktail text-3xl"></i>
+                        </div>
+                        <h3 class="font-serif text-3xl font-bold text-verde-oscuro">Bebidas</h3>
+                    </div>
+                    <ul class="space-y-4 text-gray-700">
+                        <li class="flex justify-between border-b border-gray-100 pb-2">
+                            <span>Vermuts Premium</span>
+                            <span class="text-dorado"><i class="fas fa-star"></i></span>
+                        </li>
+                        <li class="flex justify-between border-b border-gray-100 pb-2">
+                            <span>Vinos D.O. (Ribera, Rioja)</span>
+                        </li>
+                        <li class="flex justify-between border-b border-gray-100 pb-2">
+                            <span>Cervezas Artesanas & Grifo</span>
+                        </li>
+                        <li class="flex justify-between border-b border-gray-100 pb-2">
+                            <span>Gin Tonics Especiales</span>
+                        </li>
                     </ul>
                 </div>
 
-                <!-- Categoría 2: Vinos y Vermuts -->
-                <div class="menu-category bg-white p-8 rounded-lg shadow-lg border-t-4 border-verde-oscuro">
-                    <h3 class="text-verde-oscuro text-2xl font-bold mb-6 flex items-center gap-3"><i class="fas fa-wine-bottle"></i> Vinos y Vermuts</h3>
-                    <ul class="list-disc list-inside space-y-2 text-lg">
-                        <li>Tintos (Rioja, Ribera)</li>
-                        <li>Blancos (Rueda, Albariño)</li>
-                        <li>Rosados de la casa</li>
-                        <li>Vermuts: de Grifo, Siderit, Martini, El Bandarra, Yzaguirre</li>
+                <!-- Coffee Category -->
+                <div class="bg-white p-10 rounded-sm shadow-xl border-t-8 border-dorado hover:shadow-2xl transition-shadow">
+                    <div class="flex items-center gap-4 mb-8">
+                        <div class="p-4 bg-beige rounded-full text-verde-oscuro">
+                             <i class="fas fa-coffee text-3xl"></i>
+                        </div>
+                        <h3 class="font-serif text-3xl font-bold text-verde-oscuro">Cafetería</h3>
+                    </div>
+                    <ul class="space-y-4 text-gray-700">
+                        <li class="flex justify-between border-b border-gray-100 pb-2">
+                            <span>Café de Especialidad</span>
+                        </li>
+                        <li class="flex justify-between border-b border-gray-100 pb-2">
+                            <span>Carajillo Quemado</span>
+                            <span class="text-dorado"><i class="fas fa-fire"></i></span>
+                        </li>
+                         <li class="flex justify-between border-b border-gray-100 pb-2">
+                            <span>Infusiones Naturales</span>
+                        </li>
+                         <li class="flex justify-between border-b border-gray-100 pb-2">
+                            <span>Licores Digestivos</span>
+                        </li>
                     </ul>
                 </div>
 
-                <!-- Foto Decorativa 1 -->
-                <div class="menu-photo bg-cover bg-center rounded-lg shadow-lg" style="background-image: url('https://i.imgur.com/e1ZtFUE.png'); min-height: 250px;">
-                    <!-- Foto de pinchos -->
-                </div>
-
-                <!-- Categoría 3: Gin Tonics y Combinados -->
-                <div class="menu-category bg-white p-8 rounded-lg shadow-lg border-t-4 border-verde-oscuro">
-                    <h3 class="text-verde-oscuro text-2xl font-bold mb-6 flex items-center gap-3"><i class="fas fa-glass-whiskey"></i> Gin Tonics y Combinados</h3>
-                    <ul class="list-disc list-inside space-y-2 text-lg">
-                        <li>Ginebras Clásicas: Larios, Beefeater</li>
-                        <li>Ginebras Premium: Nordes, Gin Mare</li>
-                        <li>Ron: Brugal, Barceló, Habana 7</li>
-                        <li>Whisky: DYC, Jack Daniels, Cardhu</li>
-                    </ul>
-                </div>
-
-                <!-- Categoría 4: Licores y Cafés -->
-                <div class="menu-category bg-white p-8 rounded-lg shadow-lg border-t-4 border-verde-oscuro">
-                    <h3 class="text-verde-oscuro text-2xl font-bold mb-6 flex items-center gap-3"><i class="fas fa-coffee"></i> Licores y Cafés</h3>
-                    <ul class="list-disc list-inside space-y-2 text-lg">
-                        <li>Licores: Baileys, Crema de Orujo</li>
-                        <li>Pacharán, Licor de Hierbas</li>
-                        <li>Café: Solo, Cortado, Con Leche</li>
-                        <li>Especiales: Carajillo, Quemadillo</li>
-                    </ul>
-                </div>
-
-                <!-- Foto Decorativa 2 -->
-                <div class="menu-photo bg-cover bg-center rounded-lg shadow-lg" style="background-image: url('https://i.imgur.com/dKIuH3j.jpeg'); min-height: 250px;">
-                    <!-- Foto de café -->
-                </div>
             </div>
         </section>
 
-        <!-- Galería -->
-        <section id="galeria" class="container mx-auto px-4 py-16">
-            <h2 class="text-4xl font-bold text-verde-oscuro mb-12 text-center relative">
-                Nuestra Galería
-                <span class="after:block after:w-24 after:h-1 after:bg-dorado after:mx-auto after:mt-4"></span>
-            </h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="gallery-item group">
-                    <img src="https://i.imgur.com/YIKctx6.jpeg" alt="Vaso de vermut en barra" class="w-full h-80 object-cover rounded-lg shadow-md transition-transform duration-300 group-hover:scale-105">
-                </div>
-                <div class="gallery-item group">
-                    <img src="https://i.imgur.com/kiD9rm6.png" alt="Pinchos variados" class="w-full h-80 object-cover rounded-lg shadow-md transition-transform duration-300 group-hover:scale-105">
-                </div>
-                <div class="gallery-item group">
-                    <img src="https://i.imgur.com/BOg5zDU.jpeg" alt="Pincho de tortilla" class="w-full h-80 object-cover rounded-lg shadow-md transition-transform duration-300 group-hover:scale-105">
-                </div>
-                <div class="gallery-item group">
-                    <img src="https://i.imgur.com/DEn9mzz.jpeg" alt="Terraza del bar con clientes" class="w-full h-80 object-cover rounded-lg shadow-md transition-transform duration-300 group-hover:scale-105">
-                </div>
-                <div class="gallery-item group">
-                    <img src="https://i.imgur.com/4jqEg9Y.jpeg" alt="Botellas de vermut" class="w-full h-80 object-cover rounded-lg shadow-md transition-transform duration-300 group-hover:scale-105">
-                </div>
-                <div class="gallery-item group">
-                    <img src="https://i.imgur.com/lgGHv6h.jpeg" alt="Vermut con hielo y naranja" class="w-full h-80 object-cover rounded-lg shadow-md transition-transform duration-300 group-hover:scale-105">
-                </div>
-            </div>
-        </section>
-
-        <!-- Horarios -->
-        <section id="horarios" class="container mx-auto px-4 py-16">
-            <h2 class="text-4xl font-bold text-verde-oscuro mb-12 text-center relative">
-                Horarios de Apertura
-                <span class="after:block after:w-24 after:h-1 after:bg-dorado after:mx-auto after:mt-4"></span>
-            </h2>
-            <div class="bg-white p-8 md:p-12 rounded-lg shadow-xl max-w-xl mx-auto">
-                <div class="horario-item flex justify-between py-4 border-b border-gray-200 text-lg">
-                    <span class="dia font-bold text-verde-oscuro">Lunes</span>
-                    <span class="horario text-gray-500 italic">Cerrado</span>
-                </div>
-                <div class="horario-item flex justify-between py-4 border-b border-gray-200 text-lg">
-                    <span class="dia font-bold text-verde-oscuro">Martes - Jueves</span>
-                    <span class="horario font-medium">16:00 - 01:00</span>
-                </div>
-                <div class="horario-item flex justify-between py-4 border-b border-gray-200 text-lg">
-                    <span class="dia font-bold text-verde-oscuro">Viernes y Sábado</span>
-                    <span class="horario font-medium">12:00 - 02:00</span>
-                </div>
-                <div class="horario-item flex justify-between py-4 text-lg">
-                    <span class="dia font-bold text-verde-oscuro">Domingo</span>
-                    <span class="horario font-medium">16:00 - 01:00</span>
-                </div>
-            </div>
-            <p class="text-center text-verde-oscuro font-bold text-xl mt-10">
-                <i class="fas fa-drumstick-bite text-dorado"></i> Recuerda: ¡Jamón gratis los jueves con tu consumición!
-            </p>
-        </section>
-
-        <!-- Ubicación -->
-        <section id="ubicacion" class="container mx-auto px-4 py-16">
-            <h2 class="text-4xl font-bold text-verde-oscuro mb-12 text-center relative">
-                Dónde Estamos
-                <span class="after:block after:w-24 after:h-1 after:bg-dorado after:mx-auto after:mt-4"></span>
-            </h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div class="mapa rounded-lg overflow-hidden shadow-xl h-96 md:h-full">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.35414115167!2d-2.465138684568843!3d41.76813297923057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd44ffb02898953d%3A0xc154b2c1b9f6b47c!2sC.%20Carretera%20de%20Logro%C3%B1o%2C%2037%2C%2042004%20Soria%2C%20Spain!5e0!3m2!1sen!2sus!4v1731086258950" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div class="direccion-info bg-white p-8 rounded-lg shadow-xl text-lg">
-                    <h3 class="text-verde-oscuro text-2xl font-bold mb-6">Información de Contacto</h3>
-                    <div class="info-item flex items-start gap-4 mb-5">
-                        <i class="fas fa-map-marker-alt text-dorado text-2xl w-8 text-center pt-1"></i>
-                        <div>
-                            <strong class="text-verde-oscuro">Dirección:</strong><br>
-                            Carretera de Logroño, 37<br>
-                            42004 Soria
-                        </div>
-                    </div>
-                    <div class="info-item flex items-start gap-4 mb-5">
-                        <i class="fas fa-phone text-dorado text-2xl w-8 text-center pt-1"></i>
-                        <div>
-                            <strong class="text-verde-oscuro">Teléfonos (¡clic para llamar!):</strong><br>
-                            <a href="tel:639868446" class="text-verde-oscuro hover:text-dorado transition-colors">639 868 446</a><br>
-                            <a href="tel:975227420" class="text-verde-oscuro hover:text-dorado transition-colors">975 22 74 20</a>
-                        </div>
-                    </div>
-                    <div class="info-item flex items-start gap-4 mb-5">
-                        <i class="fas fa-envelope text-dorado text-2xl w-8 text-center pt-1"></i>
-                        <div>
-                            <strong class="text-verde-oscuro">Email:</strong><br>
-                            <a href="mailto:vicentemartinbueno@gmail.com" class="text-verde-oscuro hover:text-dorado transition-colors">
-                                vicentemartinbueno@gmail.com
-                            </a>
-                        </div>
-                    </div>
-                    <div class="info-item flex items-start gap-4">
-                        <i class="fas fa-car text-dorado text-2xl w-8 text-center pt-1"></i>
-                        <div>
-                            <strong class="text-verde-oscuro">Cómo llegar:</strong><br>
-                            Fácil acceso por carretera, con parking disponible en la zona
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Reseñas -->
-        <section id="resenas" class="container mx-auto px-4 py-16">
-            <h2 class="text-4xl font-bold text-verde-oscuro mb-12 text-center relative">
-                Lo Que Dicen Nuestros Clientes
-                <span class="after:block after:w-24 after:h-1 after:bg-dorado after:mx-auto after:mt-4"></span>
-            </h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="review-card bg-white p-6 rounded-lg shadow-lg relative">
-                    <span class="text-dorado text-6xl absolute top-0 left-2 opacity-30" style="font-family: 'Times New Roman', Times, serif;">“</span>
-                    <div class="stars text-dorado text-xl mb-4">★★★★★</div>
-                    <p class="review-text italic text-gray-700 mb-4 text-lg">"Un bar de toda la vida, de los que ya no quedan. Vicente es un crack, siempre te recibe con una sonrisa. El jamón de los jueves..."</p>
-                    <p class="reviewer font-bold text-verde-oscuro">- Nacho G.</p>
-                </div>
-                <div class="review-card bg-white p-6 rounded-lg shadow-lg relative">
-                    <span class="text-dorado text-6xl absolute top-0 left-2 opacity-30" style="font-family: 'Times New Roman', Times, serif;">“</span>
-                    <div class="stars text-dorado text-xl mb-4">★★★★★</div>
-                    <p class="review-text italic text-gray-700 mb-4 text-lg">"Me encanta el ambiente. Es súper acogedor y el trato es inmejorable. Ideal para tomar el vermut el fin de semana. La terraza es un plus."</p>
-                    <p class="reviewer font-bold text-verde-oscuro">- Sara M.</p>
-                </div>
-                <div class="review-card bg-white p-6 rounded-lg shadow-lg relative">
-                    <span class="text-dorado text-6xl absolute top-0 left-2 opacity-30" style="font-family: 'Times New Roman', Times, serif;">“</span>
-                    <div class="stars text-dorado text-xl mb-4">★★★★★</div>
-                    <p class="review-text italic text-gray-700 mb-4 text-lg">"Los mejores cubalibres que he probado en Soria. Producto de calidad y a buen precio. Y Vicente, el dueño, un fenómeno. 100% recomendable."</p>
-                    <p class="reviewer font-bold text-verde-oscuro">- Javier L.</p>
-                </div>
-                <div class="review-card bg-white p-6 rounded-lg shadow-lg relative">
-                    <span class="text-dorado text-6xl absolute top-0 left-2 opacity-30" style="font-family: 'Times New Roman', Times, serif;">“</span>
-                    <div class="stars text-dorado text-xl mb-4">★★★★★</div>
-                    <p class="review-text italic text-gray-700 mb-4 text-lg">"Un clásico de Soria. Perfecto para tomar algo con amigos. El ambiente es genial y el jamón de los jueves es una pasada. ¡No te lo pierdas!"</p>
-                    <p class="reviewer font-bold text-verde-oscuro">- Lucía P.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Galería de Clientes (Instagram) -->
-        <section id="clientes-instagram" class="bg-gray-50 py-16">
-            <div class="container mx-auto px-4 text-center">
-                <h2 class="text-4xl font-bold text-verde-oscuro mb-4">Nuestros Clientes</h2>
-                <p class="text-xl text-gray-700 mb-2">¡Vosotros sois los protagonistas!</p>
-                <p class="text-lg max-w-2xl mx-auto mb-8">
-                    Nos encanta ver cómo disfrutáis en el Rivoli. Comparte tus momentos con el hashtag
-                    <a href="https://www.instagram.com/explore/tags/rivolisoria/" target="_blank" class="text-dorado font-bold hover:underline">#RivoliSoria</a>
-                    y podrás aparecer aquí.
-                </p>
-
-                <!--
-                    =====================================================================
-                    INSTRUCCIONES PARA LA GALERÍA DE INSTAGRAM DINÁMICA
-                    =====================================================================
-                    Lo que ves a continuación es solo un DISEÑO de ejemplo.
-                    Para que esta galería muestre fotos de Instagram de verdad, necesitas
-                    usar un servicio de "widgets" de Instagram.
-
-                    Pasos a seguir:
-                    1. Ve a una web como https://lightwidget.com/ o https://snapwidget.com/
-                    2. Regístrate y configura tu widget (elige el hashtag #RivoliSoria, el
-                       número de fotos, el diseño, etc.).
-                    3. El servicio te dará un código para copiar y pegar.
-                    4. BORRA el div de abajo que tiene la clase "instagram-grid-mockup"
-                       y PEGA el código del widget en su lugar.
-                    =====================================================================
-                -->
-
-                <!-- INICIO DEL DISEÑO DE EJEMPLO (BORRAR Y REEMPLAZAR CON WIDGET) -->
-                <div class="instagram-grid-mockup grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-                    <div class="group relative">
-                        <img src="https://i.imgur.com/YIKctx6.jpeg" alt="Foto de cliente en Instagram 1" class="w-full h-full object-cover rounded-lg shadow-md">
-                        <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                            <i class="fab fa-instagram text-white text-4xl"></i>
-                        </div>
-                    </div>
-                    <div class="group relative">
-                        <img src="https://i.imgur.com/DEn9mzz.jpeg" alt="Foto de cliente en Instagram 2" class="w-full h-full object-cover rounded-lg shadow-md">
-                         <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                            <i class="fab fa-instagram text-white text-4xl"></i>
-                        </div>
-                    </div>
-                    <div class="group relative">
-                        <img src="https://i.imgur.com/BOg5zDU.jpeg" alt="Foto de cliente en Instagram 3" class="w-full h-full object-cover rounded-lg shadow-md">
-                         <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                            <i class="fab fa-instagram text-white text-4xl"></i>
-                        </div>
-                    </div>
-                    <div class="group relative">
-                        <img src="https://i.imgur.com/4jqEg9Y.jpeg" alt="Foto de cliente en Instagram 4" class="w-full h-full object-cover rounded-lg shadow-md">
-                         <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                            <i class="fab fa-instagram text-white text-4xl"></i>
-                        </div>
-                    </div>
-                    <div class="group relative">
-                        <img src="https://i.imgur.com/lgGHv6h.jpeg" alt="Foto de cliente en Instagram 5" class="w-full h-full object-cover rounded-lg shadow-md">
-                         <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                            <i class="fab fa-instagram text-white text-4xl"></i>
-                        </div>
-                    </div>
-                </div>
-                <!-- FIN DEL DISEÑO DE EJEMPLO -->
-
-            </div>
-        </section>
-
-        <!-- Noticias y Novedades -->
-        <section id="noticias" class="bg-beige py-16">
+        <!-- Gallery Section (Venue Only) -->
+        <section id="galeria" class="bg-beige py-24">
             <div class="container mx-auto px-4">
-                <h2 class="text-4xl font-bold text-verde-oscuro mb-12 text-center relative">
-                    Noticias y Novedades
-                    <span class="after:block after:w-24 after:h-1 after:bg-dorado after:mx-auto after:mt-4"></span>
+                <h2 class="font-serif text-4xl font-bold text-verde-oscuro mb-12 text-center uppercase tracking-widest">
+                    El Espacio
                 </h2>
-                <div class="max-w-4xl mx-auto space-y-8">
-
-                    <!-- Noticia 1 -->
-                    <div class="noticia-item bg-white p-8 rounded-lg shadow-lg border-l-4 border-verde-oscuro">
-                        <p class="text-sm text-gray-500 mb-1">30 de noviembre de 2025</p>
-                        <h3 class="text-2xl font-bold text-verde-oscuro mb-3">¡Música en directo este Sábado!</h3>
-                        <p class="text-lg">
-                            Este sábado por la noche, a partir de las 22:00, tendremos la actuación en directo del dúo acústico "Soria Suena". Ven a disfrutar de buena música y el mejor ambiente. ¡No te quedes sin sitio!
-                        </p>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[200px]">
+                    <!-- Mosaic Layout -->
+                    <div class="md:col-span-2 md:row-span-2 overflow-hidden rounded-lg shadow-lg relative group">
+                        <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=1200&auto=format&fit=crop" alt="Bar Interior" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     </div>
-
-                    <!-- Noticia 2 -->
-                    <div class="noticia-item bg-white p-8 rounded-lg shadow-lg border-l-4 border-verde-oscuro">
-                        <p class="text-sm text-gray-500 mb-1">15 de noviembre de 2025</p>
-                        <h3 class="text-2xl font-bold text-verde-oscuro mb-3">Nueva selección de vinos de Ribera</h3>
-                        <p class="text-lg">
-                            Hemos incorporado tres nuevos vinos de la D.O. Ribera del Duero a nuestra carta. Pide recomendación a Vicente y déjate sorprender por sus matices. Perfectos para maridar con nuestros pinchos.
-                        </p>
+                    <div class="md:col-span-1 md:row-span-1 overflow-hidden rounded-lg shadow-lg relative group">
+                        <img src="https://images.unsplash.com/photo-1543007630-9710e4a00a20?q=80&w=600&auto=format&fit=crop" alt="Detalle Barra" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     </div>
-
-                    <!-- Noticia 3 -->
-                    <div class="noticia-item bg-white p-8 rounded-lg shadow-lg border-l-4 border-verde-oscuro">
-                        <p class="text-sm text-gray-500 mb-1">01 de noviembre de 2025</p>
-                        <h3 class="text-2xl font-bold text-verde-oscuro mb-3">Renovamos nuestra terraza de invierno</h3>
-                        <p class="text-lg">
-                            Hemos acondicionado nuestra terraza con nuevos calefactores y mantas para que puedas seguir disfrutando de ella incluso en los días más fríos. ¡Tu rincón favorito, ahora más acogedor que nunca!
-                        </p>
+                    <div class="md:col-span-1 md:row-span-1 overflow-hidden rounded-lg shadow-lg relative group">
+                         <img src="https://images.unsplash.com/photo-1525266378418-50c583845551?q=80&w=600&auto=format&fit=crop" alt="Terraza" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     </div>
-
+                    <div class="md:col-span-2 md:row-span-1 overflow-hidden rounded-lg shadow-lg relative group">
+                         <img src="https://images.unsplash.com/photo-1572116469696-9a256e282087?q=80&w=800&auto=format&fit=crop" alt="Ambiente Nocturno" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- FAQ -->
-        <section id="faq" class="container mx-auto px-4 py-16">
-            <h2 class="text-4xl font-bold text-verde-oscuro mb-12 text-center relative">
-                Preguntas Frecuentes
-                <span class="after:block after:w-24 after:h-1 after:bg-dorado after:mx-auto after:mt-4"></span>
-            </h2>
-            <div class="max-w-3xl mx-auto space-y-4">
-                <details class="faq-item bg-white rounded-lg shadow-md overflow-hidden">
-                    <summary class="faq-question bg-verde-oscuro text-white p-5 cursor-pointer font-bold text-lg flex justify-between items-center group">
-                        ¿Cómo funciona lo del jamón gratis los jueves?
-                        <i class="fas fa-chevron-down transition-transform duration-300 group-open:rotate-180"></i>
-                    </summary>
-                    <div class="faq-answer p-5 text-lg">
-                        Todos los jueves, con cualquier consumición que pidas (desde un café hasta un cubalibré), te obsequiamos con un plato de jamón de calidad. Es nuestra forma de agradecer tu visita y una tradición que mantenemos desde hace años.
+        <!-- Location Section -->
+        <section id="ubicacion" class="py-24 bg-white">
+            <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-8">
+                    <h2 class="font-serif text-4xl font-bold text-verde-oscuro uppercase tracking-wide">Dónde Encontrarnos</h2>
+                    <p class="text-xl text-gray-600">
+                        Carretera de Logroño, 37<br>
+                        42004 Soria, España
+                    </p>
+                    <div class="flex flex-col space-y-4">
+                        <a href="tel:639868446" class="flex items-center gap-4 text-xl font-bold text-dorado hover:text-verde-oscuro transition-colors">
+                            <i class="fas fa-phone"></i> 639 868 446
+                        </a>
+                        <a href="mailto:vicentemartinbueno@gmail.com" class="flex items-center gap-4 text-xl font-bold text-dorado hover:text-verde-oscuro transition-colors">
+                            <i class="fas fa-envelope"></i> vicentemartinbueno@gmail.com
+                        </a>
                     </div>
-                </details>
-                <details class="faq-item bg-white rounded-lg shadow-md overflow-hidden">
-                    <summary class="faq-question bg-verde-oscuro text-white p-5 cursor-pointer font-bold text-lg flex justify-between items-center group">
-                        ¿Hacéis reservas?
-                        <i class="fas fa-chevron-down transition-transform duration-300 group-open:rotate-180"></i>
-                    </summary>
-                    <div class="faq-answer p-5 text-lg">
-                        No trabajamos con reservas. Funcionamos por orden de llegada, pero normalmente siempre hay sitio. Si vienes en grupo grande, puedes llamarnos antes y te informamos de la disponibilidad.
+
+                    <div class="pt-8">
+                         <h3 class="font-serif text-2xl font-bold text-verde-oscuro mb-4">Horarios</h3>
+                         <ul class="space-y-2 text-lg text-gray-700">
+                            <li><span class="font-bold w-24 inline-block">M-J:</span> 16:00 - 01:00</li>
+                            <li><span class="font-bold w-24 inline-block">V-S:</span> 12:00 - 02:00</li>
+                            <li><span class="font-bold w-24 inline-block">Dom:</span> 16:00 - 01:00</li>
+                            <li class="text-gray-400 italic">Lunes Cerrado</li>
+                         </ul>
                     </div>
-                </details>
-                <details class="faq-item bg-white rounded-lg shadow-md overflow-hidden">
-                    <summary class="faq-question bg-verde-oscuro text-white p-5 cursor-pointer font-bold text-lg flex justify-between items-center group">
-                        ¿Tenéis terraza?
-                        <i class="fas fa-chevron-down transition-transform duration-300 group-open:rotate-180"></i>
-                    </summary>
-                    <div class="faq-answer p-5 text-lg">
-                        Sí, contamos con una acogedora terraza perfecta para disfrutar del buen tiempo. Es ideal para tomar algo tranquilamente y charlar con amigos.
-                    </div>
-                </details>
-                <details class="faq-item bg-white rounded-lg shadow-md overflow-hidden">
-                    <summary class="faq-question bg-verde-oscuro text-white p-5 cursor-pointer font-bold text-lg flex justify-between items-center group">
-                        ¿Servís comidas?
-                        <i class="fas fa-chevron-down transition-transform duration-300 group-open:rotate-180"></i>
-                    </summary>
-                    <div class="faq-answer p-5 text-lg">
-                        Somos principalmente un bar de copas y cafetería, pero ofrecemos deliciosos pinchos durante todo el día. Los jueves, además, el jamón gratis con tu consumición.
-                    </div>
-                </details>
+                </div>
+                <div class="h-96 rounded-lg shadow-2xl overflow-hidden grayscale hover:grayscale-0 transition-all duration-500">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.35414115167!2d-2.465138684568843!3d41.76813297923057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd44ffb02898953d%3A0xc154b2c1b9f6b47c!2sC.%20Carretera%20de%20Logro%C3%B1o%2C%2037%2C%2042004%20Soria%2C%20Spain!5e0!3m2!1sen!2sus!4v1731086258950" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
             </div>
         </section>
 
-        <!-- Contacto y Redes Sociales -->
-        <section id="contacto" class="container mx-auto px-4 py-16">
-            <h2 class="text-4xl font-bold text-verde-oscuro mb-12 text-center relative">
-                Contacto y Redes Sociales
-                <span class="after:block after:w-24 after:h-1 after:bg-dorado after:mx-auto after:mt-4"></span>
-            </h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div class="contacto-info bg-white p-8 rounded-lg shadow-xl">
-                    <h3 class="text-verde-oscuro text-2xl font-bold mb-4">Visítanos</h3>
-                    <p class="mb-6 text-lg">
-                        Estamos encantados de recibirte en nuestro bar. Ven a disfrutar de un ambiente familiar, buen trato y los mejores productos. ¡Te esperamos!
-                    </p>
-                    <div class="info-item flex items-center gap-4 mb-4 text-lg">
-                        <i class="fas fa-phone text-dorado text-xl w-6 text-center"></i>
-                        <span>
-                            <a href="tel:639868446" class="text-verde-oscuro hover:text-dorado">639 868 446</a> /
-                            <a href="tel:975227420" class="text-verde-oscuro hover:text-dorado">975 22 74 20</a>
-                        </span>
-                    </div>
-                    <div class="info-item flex items-center gap-4 text-lg">
-                        <i class="fas fa-envelope text-dorado text-xl w-6 text-center"></i>
-                        <a href="mailto:vicentemartinbueno@gmail.com" class="text-verde-oscuro hover:text-dorado">
-                            vicentemartinbueno@gmail.com
-                        </a>
-                    </div>
-                </div>
-                <div class="contacto-info bg-white p-8 rounded-lg shadow-xl">
-                    <h3 class="text-verde-oscuro text-2xl font-bold mb-4">Síguenos</h3>
-                    <p class="mb-6 text-lg">
-                        Mantente al día con nuestras novedades, promociones especiales y el día a día del Café Rivoli.
-                    </p>
-                    <div class="social-links flex space-x-4">
-                        <a href="https://www.facebook.com/cafebarrivoli/?locale=es_ES" target="_blank" class="social-btn flex items-center gap-2 py-3 px-6 bg-verde-oscuro text-white rounded-md font-bold hover:bg-dorado hover:text-verde-oscuro transition-all transform hover:-translate-y-0.5">
-                            <i class="fab fa-facebook-f text-2xl"></i>
-                            <span>Facebook</span>
-                        </a>
-                        <a href="https://www.instagram.com/cafe_bar_rivoli/" target="_blank" class="social-btn flex items-center gap-2 py-3 px-6 bg-verde-oscuro text-white rounded-md font-bold hover:bg-dorado hover:text-verde-oscuro transition-all transform hover:-translate-y-0.5">
-                            <i class="fab fa-instagram text-2xl"></i>
-                            <span>Instagram</span>
-                        </a>
-                    </div>
-                </div>
+        <!-- Social Media CTA (Instagram) -->
+        <section id="contacto" class="bg-verde-oscuro py-16 text-center text-white">
+            <h2 class="font-serif text-3xl font-bold mb-8">Síguenos en Redes</h2>
+            <div class="flex justify-center gap-8">
+                <a href="https://www.instagram.com/cafe_bar_rivoli/" target="_blank" class="transform hover:scale-125 transition-transform duration-300 text-dorado text-5xl">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/cafebarrivoli/?locale=es_ES" target="_blank" class="transform hover:scale-125 transition-transform duration-300 text-dorado text-5xl">
+                    <i class="fab fa-facebook"></i>
+                </a>
             </div>
+            <p class="mt-8 text-sm opacity-60">Etiquétanos #RivoliSoria</p>
         </section>
 
     </main>
 
     <!-- Footer -->
-    <footer class="bg-verde-oscuro text-white text-center py-10 mt-16">
-        <p class="font-bold text-lg">Café Bar Rivoli - Tradición y calidad desde 2001</p>
-        <p>Carretera de Logroño, 37 - 42004 Soria</p>
-        <p>Tel: <a href="tel:639868446" class="hover:text-dorado">639 868 446</a> / <a href="tel:975227420" class="hover:text-dorado">975 22 74 20</a></p>
-        <p class="mt-6 text-sm opacity-80">© 2025 Café Bar Rivoli. Todos los derechos reservados.</p>
-        <p class="text-xs opacity-80">NIF: 17439709M - Vicente Martín Bueno</p>
+    <footer class="bg-black text-gray-400 py-10 text-center text-sm border-t border-gray-800">
+        <p>&copy; 2025 Café Bar Rivoli. Soria.</p>
+        <p class="mt-2">Diseño y desarrollo actualizado.</p>
     </footer>
 
-    <!-- Google Analytics (Para saber CÓMO te encuentra la gente) -->
-    <!--
-        PASOS A SEGUIR:
-        1. Crea una cuenta gratis en Google Analytics (https://analytics.google.com/)
-        2. Crea una "propiedad" para tu web.
-        3. Te darán un "ID DE MEDICIÓN" (ej: G-XXXXXXXXXX).
-        4. Pega ese ID abajo donde dice "TU_ID_DE_GOOGLE_ANALYTICS".
-    -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TU_ID_DE_GOOGLE_ANALYTICS"></script>
-    <script src="js/analytics.js"></script>
-    <!-- Fin Google Analytics -->
-
-    <!-- Lógica del Menú -->
+    <!-- Scripts -->
     <script src="js/script.js"></script>
+    <script src="js/analytics.js"></script>
 
 </body>
 </html>
