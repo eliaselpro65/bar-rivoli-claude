@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Pinchos - Café Bar Rivoli</title>
+    <meta name="description"
+        content="Descubre nuestra amplia variedad de pinchos caseros. Tortilla, croquetas, chorizo al vino y mucho más.">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/tailwind-config.js"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="font-serif bg-beige text-gris leading-relaxed">
+
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-verde-oscuro to-verde-medio text-white p-4 sticky top-0 z-50 shadow-lg">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-dorado">Café Rivoli</a>
+
+            <button id="menu-toggle" class="md:hidden text-2xl">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul id="nav-links" class="hidden md:flex space-x-6">
+                <li><a href="index.html#inicio" class="hover:text-dorado transition-colors">Inicio</a></li>
+                <li><a href="index.html#nosotros" class="hover:text-dorado transition-colors">Nosotros</a></li>
+                <li><a href="index.html#pinchos" class="hover:text-dorado transition-colors">Pinchos</a></li>
+                <li><a href="pinchos.html" class="text-dorado font-bold">Galería Pinchos</a></li>
+                <li><a href="index.html#menu" class="hover:text-dorado transition-colors">Menú</a></li>
+                <li><a href="index.html#contacto" class="hover:text-dorado transition-colors">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <div id="mobile-menu" class="hidden md:hidden">
+            <ul class="flex flex-col items-center space-y-4 py-4">
+                <li><a href="index.html#inicio"
+                        class="block w-full text-center hover:text-dorado transition-colors">Inicio</a></li>
+                <li><a href="index.html#nosotros"
+                        class="block w-full text-center hover:text-dorado transition-colors">Nosotros</a></li>
+                <li><a href="index.html#pinchos"
+                        class="block w-full text-center hover:text-dorado transition-colors">Pinchos</a></li>
+                <li><a href="pinchos.html" class="block w-full text-center text-dorado font-bold">Galería Pinchos</a>
+                </li>
+                <li><a href="index.html#menu"
+                        class="block w-full text-center hover:text-dorado transition-colors">Menú</a></li>
+                <li><a href="index.html#contacto"
+                        class="block w-full text-center hover:text-dorado transition-colors">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section for Pinchos Gallery -->
+        <section class="bg-gradient-to-r from-verde-oscuro to-verde-medio text-white py-20 px-4">
+            <div class="container mx-auto text-center">
+                <h1 class="text-5xl md:text-6xl font-heading font-bold mb-4 text-dorado">Galería de Pinchos</h1>
+                <p class="text-xl md:text-2xl mb-6 italic">Descubre toda nuestra selección de pinchos caseros</p>
+                <nav class="breadcrumb text-sm">
+                    <a href="index.html" class="hover:text-dorado transition-colors"><i class="fas fa-home"></i>
+                        Inicio</a>
+                    <span class="mx-2">/</span>
+                    <span class="text-dorado">Galería de Pinchos</span>
+                </nav>
+            </div>
+        </section>
+
+        <!-- Pinchos Gallery Grid -->
+        <section class="container mx-auto px-4 py-16">
+            <p class="text-center text-lg max-w-3xl mx-auto mb-12">
+                Todos nuestros pinchos están elaborados con ingredientes frescos de primera calidad.
+                Desde los clásicos de toda la vida hasta las especialidades de la casa.
+                ¡Ven a probarlos todos!
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+
+                <!-- Pincho 1 -->
+                <div class="pincho-card group bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer">
+                    <img src="public/rivoli 3.jpg" alt="Pincho" class="gallery-clickable w-full h-64 object-cover">
+                </div>
+
+                <!-- Pincho 2 -->
+                <div class="pincho-card group bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer">
+                    <img src="public/rivoli 4.jpg" alt="Pincho" class="gallery-clickable w-full h-64 object-cover">
+                </div>
+
+                <!-- Pincho 3 -->
+                <div class="pincho-card group bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer">
+                    <img src="public/rivoli 5.jpg" alt="Pincho" class="gallery-clickable w-full h-64 object-cover">
+                </div>
+
+                <!-- Pincho 4 -->
+                <div class="pincho-card group bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer">
+                    <img src="public/rivoli 1.jpg" alt="Pincho" class="gallery-clickable w-full h-64 object-cover">
+                </div>
+
+                <!-- Pincho 5 -->
+                <div class="pincho-card group bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer">
+                    <img src="public/rivoli 2.jpg" alt="Pincho" class="gallery-clickable w-full h-64 object-cover">
+                </div>
+
+                <!-- Pincho 6 -->
+                <div class="pincho-card group bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer">
+                    <img src="public/Screenshot 2025-11-08 at 16-57-43 Cafe Bar Rivoli (@cafe_bar_rivoli) • Fotos y vídeos de Instagram.png"
+                        alt="Pincho" class="gallery-clickable w-full h-64 object-cover">
+                </div>
+
+                <!-- Pincho 7 -->
+                <div class="pincho-card group bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer">
+                    <img src="public/Screenshot 2025-11-08 at 16-57-54 Cafe Bar Rivoli (@cafe_bar_rivoli) • Fotos y vídeos de Instagram.png"
+                        alt="Pincho" class="gallery-clickable w-full h-64 object-cover">
+                </div>
+
+                <!-- Pincho 8 -->
+                <div class="pincho-card group bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer">
+                    <img src="public/Screenshot 2025-11-08 at 16-58-13 Cafe Bar Rivoli (@cafe_bar_rivoli) • Fotos y vídeos de Instagram.png"
+                        alt="Pincho" class="gallery-clickable w-full h-64 object-cover">
+                </div>
+
+            </div>
+
+
+            <!-- Call to Action -->
+            <div class="text-center mt-16">
+                <p class="text-2xl font-bold text-verde-oscuro mb-6">¿Te hemos abierto el apetito?</p>
+                <a href="index.html#ubicacion" class="cta-primary">
+                    Ven a Visitarnos
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-verde-oscuro text-white text-center py-10 mt-16">
+        <p class="font-bold text-lg">Café Bar Rivoli - Tradición y calidad desde 2001</p>
+        <p>Carretera de Logroño, 37 - 42004 Soria</p>
+        <p>Tel: <a href="tel:639868446" class="hover:text-dorado">639 868 446</a> / <a href="tel:975227420"
+                class="hover:text-dorado">975 22 74 20</a></p>
+        <p class="mt-6 text-sm opacity-80">© 2025 Café Bar Rivoli. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
